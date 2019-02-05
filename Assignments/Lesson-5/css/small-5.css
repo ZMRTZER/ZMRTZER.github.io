@@ -27,28 +27,29 @@ height: 100px;
     font-family: "Arial Black", sans-serif;
 }
 
-nav {
+nav ul li{
     font-size: 30pt;
     font-family: 'ABeeZee';font-size: 22px;
+    list-style-type: none;
 }
 
-a:link {
+nav a:link {
 color: yellow;
 }
 
-a:visited {
+nav a:visited {
     color: midnightblue;
 }
 
-a:focus {
+nav a:focus {
     color: deepskyblue;
 }
 
-a:hover {
+nav a:hover {
 color: white;
 }
 
-a:active {
+nav a:active {
     color: slateblue;
 }
 
