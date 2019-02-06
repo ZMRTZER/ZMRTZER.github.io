@@ -8,7 +8,6 @@ body {
 }
 
 #header {
-    text-align: center;
     background-color: deepskyblue;
     font-size: 40pt;
     color: yellow;
@@ -16,9 +15,9 @@ body {
 }
 
 header img {
-    position: absolute;
-    width: 100px;
-    height: 100px;
+float: left;
+width: 100px;
+height: 100px;
 }
 
 .motto {
@@ -28,29 +27,28 @@ header img {
     font-family: "Arial Black", sans-serif;
 }
 
-nav ul li{
+nav {
     font-size: 30pt;
     font-family: 'ABeeZee';font-size: 22px;
-    list-style-type: none;
 }
 
-nav a:link {
+a:link {
 color: yellow;
 }
 
-nav a:visited {
+a:visited {
     color: midnightblue;
 }
 
-nav a:focus {
+a:focus {
     color: deepskyblue;
 }
 
-nav a:hover {
+a:hover {
 color: white;
 }
 
-nav a:active {
+a:active {
     color: slateblue;
 }
 
@@ -58,7 +56,6 @@ nav a:active {
     font-size: 40pt;
     font-family: Arial, Helvetica, sans-serif;
     color: midnightblue;
-    text-align: center;
 }
 
 h2 {
@@ -68,25 +65,15 @@ h2 {
 }
 
 #summary {
-    display: flex;
-    flex-flow: column;
-    position: absolute;
+    border: 2px solid midnightblue;
 }
 
 #article {
     border: 2px solid midnightblue;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-}
-
-.article {
-    display: block;
-    position: relative;
 }
 
 #contact {
-    text-align: center;
+    border: 2px solid midnightblue;
 }
 
 #footerbar {
@@ -95,8 +82,4 @@ h2 {
     font-size: 14pt;
     color: yellow;
     font-family: Arial, Bold, sans-serif;
-}
-
-.date {
-    text-align: center;
 }
