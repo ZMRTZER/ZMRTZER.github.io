@@ -1,5 +1,4 @@
 body {
-    margin:0;
     padding:0;
     background-color: lightskyblue;
     color: white;
@@ -27,28 +26,35 @@ height: 100px;
     font-family: "Arial Black", sans-serif;
 }
 
-nav {
-    font-size: 30pt;
-    font-family: 'ABeeZee';font-size: 22px;
+@media screen and (max-width: 480px){
+    nav ul li {
+        
+    }
 }
 
-a:link {
+nav ul li{
+    font-size: 30pt;
+    font-family: 'ABeeZee';font-size: 22px;
+    list-style: none;
+}
+
+nav a:link {
 color: yellow;
 }
 
-a:visited {
+nav a:visited {
     color: midnightblue;
 }
 
-a:focus {
+nav a:focus {
     color: deepskyblue;
 }
 
-a:hover {
+nav a:hover {
 color: white;
 }
 
-a:active {
+nav a:active {
     color: slateblue;
 }
 
@@ -64,8 +70,17 @@ h2 {
     font-family: Arial, Bold, sans-serif;
 }
 
-#summary {
-    border: 2px solid midnightblue;
+.summary {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.hero {
+    width: 100%;
+    display: block;
+    position: relative;
 }
 
 #article {
