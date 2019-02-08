@@ -147,6 +147,14 @@ article {
     margin-bottom: 50px;
 }
 
+.article {
+    text-align: center;
+}
+
+#rodeo {
+    background-color: skyblue;
+}
+
 .rodeo {
     width: 100%;
 }
