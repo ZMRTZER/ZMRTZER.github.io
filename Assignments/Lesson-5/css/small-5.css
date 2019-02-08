@@ -1,100 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    padding:0;
     background-color: lightskyblue;
     color: white;
-    font-size: 16pt;
+    font-size: 8pt;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#header {
+.weather {
+    width: 145px;
+    height: 140px;
+    position: relative;
+    left: 90px;
+}
+
+
+.title {
+    position: relative;
+    margin-bottom: -1px;
     background-color: deepskyblue;
-    font-size: 40pt;
+    text-align: center;
+    font-size: 25pt;
     color: yellow;
     font-family: "Arial Black", sans-serif;
 }
 
-header img {
-float: left;
-width: 100px;
-height: 100px;
-}
 
 .motto {
+    text-align: center;
     background-color: deepskyblue;
-    font-size: 20pt;
+    font-size: 14pt;
     color: white;
     font-family: "Arial Black", sans-serif;
 }
 
-@media screen and (max-width: 480px){
-    nav ul li {
-        
-    }
-}
-
-nav ul li{
-    font-size: 30pt;
-    font-family: 'ABeeZee';font-size: 22px;
+.menu {
+    background-color: slateblue;
+    font-size: 16pt;
+    font-family: 'ABeeZee';
+    padding: 15px;
     list-style: none;
+    text-align: center;
 }
 
-nav a:link {
+@media screen and (max-width: 600px) {
+.home {
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+.preston {
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+.springs {
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+.fish {
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+.storm {
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+.gallery {
+    display: none;
+}
+}
+
+a:link {
 color: yellow;
 }
 
-nav a:visited {
+a:visited {
     color: midnightblue;
 }
 
-nav a:focus {
+a:focus {
     color: deepskyblue;
 }
 
-nav a:hover {
+a:hover {
 color: white;
 }
 
-nav a:active {
+a:active {
     color: slateblue;
 }
 
 #town {
-    font-size: 40pt;
+    text-align: center;
+    font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
     color: midnightblue;
 }
 
-h2 {
-    color: midnightblue;
-    font-size: 20pt;
-    font-family: Arial, Bold, sans-serif;
+.summary {
+    position: absolute;
 }
 
-.summary {
-    display: block;
-    position: absolute;
-    top: 25px;
-    left: 50px;
+.weathersummary {
+    color: yellow;
+    font-size: 12pt;
+    font-family: Arial, Bold, sans-serif;   
 }
 
 .hero {
     width: 100%;
-    display: block;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    #forecast, .forecast, .background, .monday, .tuesday, .wednesday, .thursday, .friday {
+        display: none;
+    }
+}
+
+h3 {
+    color: midnightblue;
+    font-size: 12pt;
+    font-family: Arial, Bold, sans-serif;
+}
+
+
+.link a {
     position: relative;
+    left: 60px;
+    text-align: center;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#article {
-    border: 2px solid midnightblue;
+article {
+    margin-bottom: 50px;
 }
 
-#contact {
-    border: 2px solid midnightblue;
+.rodeo {
+    width: 100%;
 }
 
-#footerbar {
+.map {
+    width: 100%;
+}
+
+footer {
     text-align: center;
     background-color: skyblue;
-    font-size: 14pt;
+    font-size: 8pt;
     color: yellow;
     font-family: Arial, Bold, sans-serif;
+}
+
+.date {
+    text-align: center;
 }

@@ -1,9 +1,187 @@
+@media screen and (min-width: 601px) {}
+
 @media screen and (min-width: 601px) {
-    nav ul li {
-        margin: 0;
-        padding: 5px;
-        display: inline;
-        position: relative;
+    body {
+        font-size: 20pt;
     }
 }
 
+@media screen and (min-width: 601px) {
+    .weather {
+        position: relative;
+        margin-bottom: -200px;
+        width: 145px;
+        height: 140px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .title {
+        text-align: center;
+        font-size: 60pt;
+        color: yellow;
+        font-family: "Arial Black", sans-serif;
+    }
+}
+    
+@media screen and (min-width: 601px) {
+    .motto {
+        text-align: center;
+        background-color: deepskyblue;
+        font-size: 30pt;
+        color: white;
+        font-family: "Arial Black", sans-serif;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    nav ul li {
+        display: inline;
+        position: relative;
+        font-size: 30pt;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 25px;
+        font-family: 'ABeeZee';
+        list-style: none;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #topnav {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #town {
+        font-size: 40pt;
+        margin-top: 200px;
+        margin-bottom: 150px;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    .weathersummary {
+        font-size: 30pt;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    #forecast {
+        position: absolute;
+        margin-top: -15px;
+        left: 30px;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    .forecast {
+        color: yellow;
+        font-size: 30pt;
+        font-family: Arial, Bold, sans-serif;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    .background {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    .monday {
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    .tuesday {
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    .wednesday {
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    .thursday {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .friday {
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    h4 {
+        color: yellow;
+        font-size: 25pt;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    h3 {
+        text-align: center;
+        font-size: 30pt;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .article {
+        margin-top: 200px;
+        font-size: 40pt;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .rodeo {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .link a {
+        font-size: 20pt;
+        position: relative;
+        left: 480px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    footer {
+        font-size: 18pt;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .date {
+
+        font-size: 18pt;
+    }
+}
