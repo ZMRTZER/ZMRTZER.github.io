@@ -6,8 +6,7 @@
 
 @media screen and (min-width: 601px) {
     .weather {
-        position: relative;
-        left: 220px;
+        position: absolute;
         width: 145px;
         height: 140px;
     }
