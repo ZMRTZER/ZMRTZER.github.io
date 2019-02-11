@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather {
+    width: 55px;
+    height: 50px;
+    float: left;
+}
+
+
+.title {
+    margin-bottom: -1px;
+    background-color: deepskyblue;
+    text-align: center;
+    font-size: 20pt;
+    color: yellow;
+    font-family: "Arial Black", sans-serif;
+}
+
+
+.motto {
+    text-align: center;
+    background-color: deepskyblue;
+    font-size: 12pt;
+    color: white;
+    font-family: "Arial Black", sans-serif;
+}
+
+.menu {
+    background-color: slateblue;
+    font-size: 16pt;
+    font-family: 'ABeeZee';
+    padding: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+.home {
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+.preston {
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+.springs {
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+.fish {
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+.storm {
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+.gallery {
+    display: none;
+}
+}
+
+a:link {
+color: yellow;
+}
+
+a:visited {
+    color: midnightblue;
+}
+
+a:focus {
+    color: deepskyblue;
+}
+
+a:hover {
+color: white;
+}
+
+a:active {
+    color: slateblue;
+}
+
+#town {
+    text-align: center;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+}
+
+.summary {
+    position: absolute;
+}
+
+.weathersummary {
+    color: yellow;
+    font-size: 12pt;
+    font-family: Arial, Bold, sans-serif;   
+}
+
+.hero {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    #forecast, .forecast, .background, .monday, .tuesday, .wednesday, .thursday, .friday {
+        display: none;
+    }
+}
+
+h3 {
+    color: midnightblue;
+    font-size: 12pt;
+    font-family: Arial, Bold, sans-serif;
+}
+
+
+.link a {
+    text-align: center;
+    font-size: 7pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+.article {
+    text-align: center;
+}
+
+#rodeo {
+    background-color: skyblue;
+}
+
+.rodeo {
+    width: 100%;
+}
+
+.map {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: skyblue;
+    font-size: 8pt;
+    color: yellow;
+    font-family: Arial, Bold, sans-serif;
+}
+
+.date {
+    text-align: center;
+}
