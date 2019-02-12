@@ -7,11 +7,15 @@
             <meta name="description" content="CIT 230 weather site Preston town page.">
             <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
             <link rel="stylesheet" href="css/normalize.css">
-            <link rel="stylesheet" href="css/small-5.css">
-            <link rel="stylesheet" href="css/large-5.css"> 
+            <link rel="stylesheet" href="css/small-6.css">
+            <link rel="stylesheet" href="css/large-6.css"> 
         </head>
         <body>
-            <img class="weather" src="images/weather.png" alt="logo">
+            <picture>
+                <source srcset="images/weather-medium.png" media="(min-width: 600px) and (max-width: 1023px)">
+                   <source srcset="images/weather-large.png" media="(min-width: 1024px)">
+                    <img class="weather" src="images/weather-small.png" alt="logo">
+            </picture>
             <header>
                 <h1 class="title">Weathered.World</h1>
                 <div class="motto"> 
@@ -37,61 +41,73 @@
             <article class="summary">
                     <h3 class="weathersummary">Weather Summary</h3>
                     <br>
-                    <p>Currently: Sunny</p>
+                    <p>Currently: <em>Sunny</em></p>
                     <br>
-                    <p>Temperature: 76 F</p>
+                    <p>Temperature: <em>76 F </em></p>
                     <br>
-                    <p>Humidity: 69</p>
+                    <p>Humidity: <em>69</em></p>
                     <br>
-                    <p>Precipitation: 0 inches</p>
+                    <p>Precipitation: <em>0 inches</em></p>
                     <br>
-                    <p>Wind Speed: 5 mph</p>
+                    <p>Wind Speed: <em>5 mph</em></p>
             </article>
-            <img class="hero" src="images/hero-image.jpg" alt="hero image">
+            <picture>
+                <source srcset="images/hero-medium.jpg" media="(min-width: 600px) and (max-width: 1023px)">
+                    <source srcset="images/hero-large.jpg" media="(min-width: 1024px)">
+                <img class="hero" src="images/hero-small.jpg" alt="hero image">
+            </picture>
             <article id="forecast">
                     <h3 class="forecast">Five Day Forecast</h3>
                 <br>
                 <section class="monday">
                     <h4>Monday</h4>
-                    <p>High: 33</p>
-                    <p>Low: 23</p>
-                    <p>Cloudy</p>
+                    <p>High: <em>33</em></p>
+                    <p>Low: <em>23</em></p>
+                    <p><em>Cloudy</em></p>
                 </section>
                 <br>
                 <section class="tuesday">
                     <h4>Tuesday</h4>
-                    <p>High: 34</p>
-                    <p>Low: 33</p>
-                    <p>Snow</p>
+                    <p>High: <em>34</em></p>
+                    <p>Low: <em>33</em></p>
+                    <p><em>Snow</em></p>
                 </section>
                 <br>
                 <section class="wednesday">
                     <h4>Wednesday</h4>
-                    <p>High: 38</p>
-                    <p>Low: 36</p>
-                    <p>Snow</p>
+                    <p>High: <em>38</em></p>
+                    <p>Low: <em>36</em></p>
+                    <p><em>Snow</em></p>
                 </section>
                 <br>
                 <section class="thursday">
                     <h4>Thursday</h4>
-                    <p>High: 36</p>
-                    <p>Low: 20</p>
-                    <p>Snow</p>
+                    <p>High: <em>36</em></p>
+                    <p>Low: <em>20</em></p>
+                    <p><em>Snow</em></p>
                 </section>
                 <br>
                 <section class="friday">
                     <h4>Friday</h4>
-                    <p>High: 30</p>
-                    <p>Low: 14</p>
-                    <p>Mildly Cloudy</p>
+                    <p>High: <em>30</em></p>
+                    <p>Low: <em>14</em></p>
+                    <p><em>Mildly Cloudy</em></p>
                 </section>
                 </article>
-                <img class="background" src="images/background.jpg" alt="cabin background">
+                <picture>
+                    <source srcset="images/background-small.jpg" media="(min-width: 600px) and (max-width: 1023px)">
+                    <source srcset="images/background-large.jpg" media="(min-width: 1024px)">
+                    <img class="background" src="images/background-small.jpg" alt="cabin background">
+                </picture>
                 <br>
                 <article id="rodeo">
                     
                     <h3 class="article">Preston Night Rodeo</h3>
-                    <img class="rodeo" src="images/preston-night-rodeo.jpg" alt="article image">
+                    <picture>
+                        <source srcset="images/rodeo-medium.jpg" media="(min-width: 600px) and (max-width: 1023px)">
+                        <source srcset="images/rodeo-large.jpg" media="(min-width: 1024px)">
+                        <img class="rodeo" src="images/rodeo-small.jpg" alt="article image">
+                    </picture>
                     <p>The 83rd annual celebration of That Famous Preston Night Rodeo begins today, July 26, 2018, and runs through Saturday, July 28.
                         Already, Benson Park is filling with booths full of food, finds and fun. State Street's sidewalk sale has begun and PRCA merchandise is available 
                         at the rodeo grounds.
@@ -113,7 +129,11 @@
                 <p>(999)-999-9999</p>
                 <p>30 N 1st E</p>
                 <p>Preston, ID 83263</p>
-                <img class="map" src="images/map.png" alt="map image">
+                <picture>
+                    <source srcset="images/map-medium.png" media="(min-width: 600px) and (max-width: 1023px)">
+                    <source srcset="images/map-large.png" media="(min-width: 1024px)">
+                    <img class="map" src="images/map-small.png" alt="map image">
+                </picture>
             </footer>
             <footer>
                 <p>&copy;2019 Weathered | Attributions? | Braden Hamilton</p>

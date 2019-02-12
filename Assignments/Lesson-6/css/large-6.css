@@ -7,8 +7,6 @@
 @media screen and (min-width: 601px) {
     .weather {
         position: absolute;
-        width: 145px;
-        height: 140px;
     }
 }
 
@@ -34,11 +32,8 @@
         font-size: 30pt;
         color: white;
         font-family: "Arial Black", sans-serif;
+        padding-bottom: 15px;
     }
-}
-
-@media screen and (min-width: 601px) {
-    
 }
 
 @media screen and (min-width: 601px) {
@@ -100,20 +95,6 @@
     }
 }
 
-
-@media screen and (min-width: 601px) {
-    .background {
-        width: 100%;
-        height: 870px;
-    }
-}
-
-@media screen and (min-width: 1441px) {
-    .background {
-        height: auto;
-    }
-}
-
 @media screen and (min-width: 601px) {
     h4 {
         color: yellow;
@@ -141,8 +122,6 @@
 @media screen and (min-width: 601px) {
     .rodeo {
         display: block;
-        width: 600px;
-        height: 400px;
         float: right;
         padding-left: 50px;
     }
@@ -180,11 +159,7 @@
 
 @media screen and (min-width: 601px) {
     .map {
-        display: block;
-        width: auto;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
+        display: inline-block;
     }
 }
 
