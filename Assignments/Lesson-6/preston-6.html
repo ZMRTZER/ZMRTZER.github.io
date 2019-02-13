@@ -8,7 +8,8 @@
             <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
             <link rel="stylesheet" href="css/normalize.css">
             <link rel="stylesheet" href="css/small-6.css">
-            <link rel="stylesheet" href="css/large-6.css"> 
+            <link rel="stylesheet"  href="css/large-6.css">
+            <script src="script/hamburger.js"></script>
         </head>
         <body>
             <picture>
@@ -25,14 +26,15 @@
             
             <br>
             <nav>
-                <ul id="topnav">
-                    <li class="menu">Menu</li>
-                    <li class="home"><a href="Home">Home</a></li>
-                    <li class="preston"><a href="preston-5.html">Preston</a></li>
-                    <li class="springs"><a href="SodaSprings">Soda Springs</a></li>
-                    <li class="fish"><a href="FishHaven">Fish Haven</a></li>
-                    <li class="storm"><a href="StormCenter">Storm Center</a></li>
-                    <li class="gallery"><a href="Gallery">Gallery</a></li>
+                    
+                <ul id="mytopnav" class="topnav">
+                    <li><button onclick="toggleMenu()">&#9776;Menu</button></li>
+                    <li><a href="Home" title="Home">Home</a></li>
+                    <li class="active"><a href="preston-6.html" title="Preston" class="active">Preston</a></li>
+                    <li><a href="SodaSprings" title="Soda Springs">Soda Springs</a></li>
+                    <li><a href="FishHaven" title="Fish Haven">Fish Haven</a></li>
+                    <li><a href="StormCenter" title="Storm Center">Storm Center</a></li>
+                    <li><a href="Gallery" title="Gallery">Gallery</a></li>
                 </ul>
             </nav>
             <main id="town">

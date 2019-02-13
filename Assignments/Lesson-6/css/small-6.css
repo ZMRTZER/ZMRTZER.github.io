@@ -14,11 +14,6 @@ em {
     color: yellow;
 }
 
-.weather {
-    float: left;
-}
-
-
 .title {
     margin-bottom: -1px;
     background-color: deepskyblue;
@@ -37,47 +32,54 @@ em {
     font-family: "Arial Black", sans-serif;
 }
 
-.menu {
+@media screen and (max-width: 600px) {
+.weather {
+    float: left;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    padding: .8rem 2%;
+    color: white;
+
+}
+
+nav {
     background-color: slateblue;
     font-size: 16pt;
     font-family: 'ABeeZee';
-    padding: 15px;
-    list-style: none;
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-.home {
-    display: none;
-}
-}
-
-@media screen and (max-width: 600px) {
-.preston {
-    display: none;
-}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-@media screen and (max-width: 600px) {
-.springs {
-    display: none;
-}
+nav li:first-child {
+    border-top: none;
 }
 
-@media screen and (max-width: 600px) {
-.fish {
-    display: none;
-}
-}
-
-@media screen and (max-width: 600px) {
-.storm {
-    display: none;
-}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid yellowgreen;
 }
 
-@media screen and (max-width: 600px) {
-.gallery {
+nav ul li a:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav li.active {
+    background-color: steelblue;
+    color: white;
+}
+
+nav ul.topnav li:not(:first-child) {
     display: none;
 }
 }
@@ -123,13 +125,11 @@ a:active {
     width: 100%;
     margin-bottom: 50px;
 }
-
 @media screen and (max-width: 600px) {
     #forecast, .forecast, .background, .monday, .tuesday, .wednesday, .thursday, .friday {
         display: none;
     }
 }
-
 h3 {
     color: midnightblue;
     font-size: 12pt;
@@ -143,26 +143,27 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-article {
-    margin-bottom: 50px;
-}
+    article {
+        margin-bottom: 50px;
+    }
 
-.article {
-    text-align: center;
-}
+    .article {
+        text-align: center;
+    }
 
-#rodeo {
-    background-color: skyblue;
-}
+    #rodeo {
+        background-color: skyblue;
+    }
 
-footer {
-    text-align: center;
-    background-color: skyblue;
-    font-size: 8pt;
-    color: yellow;
-    font-family: Arial, Bold, sans-serif;
-}
+    footer {
+        text-align: center;
+        background-color: skyblue;
+        font-size: 8pt;
+        color: yellow;
+        font-family: Arial, Bold, sans-serif;
+    }
 
-.date {
-    text-align: center;
+    .date {
+        text-align: center;
+    }
 }
