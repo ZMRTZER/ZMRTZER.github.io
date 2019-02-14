@@ -69,6 +69,10 @@
         font-family: Arial, Bold, sans-serif;
     }
 
+    .background {
+        width: 100%;
+    }
+
     h4 {
         color: yellow;
         font-size: 25pt;
