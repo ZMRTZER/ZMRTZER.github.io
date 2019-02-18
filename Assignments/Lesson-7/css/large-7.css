@@ -1,0 +1,128 @@
+@media screen and (min-width: 601px) {
+    body {
+        font-size: 20pt;
+    }
+
+    .weather {
+        position: absolute;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 60pt;
+        color: yellow;
+        font-family: "Arial Black", sans-serif;
+    }
+    
+    .motto {
+        text-align: center;
+        background-color: deepskyblue;
+        font-size: 30pt;
+        color: white;
+        font-family: "Arial Black", sans-serif;
+        padding-bottom: 15px;
+    }
+
+    nav ul li {
+        display: inline;
+        position: relative;
+        font-size: 30pt;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 25px;
+        font-family: 'ABeeZee';
+        list-style: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .topnav {
+        text-align: center;
+    }
+
+    #town {
+        font-size: 40pt;
+        margin-top: 200px;
+        margin-bottom: 150px;
+    }
+
+    .weathersummary {
+        font-size: 30pt;
+    }
+
+    #forecast {
+        position: absolute;
+        margin-top: -15px;
+        left: 30px;
+    }
+
+    .forecast {
+        color: yellow;
+        font-size: 30pt;
+        font-family: Arial, Bold, sans-serif;
+    }
+
+    .background {
+        width: 100%;
+    }
+
+    h4 {
+        color: yellow;
+        font-size: 25pt;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 30pt;
+        margin-top: 30px;
+    }
+
+    .article {
+        margin-top: 200px;
+        font-size: 40pt;
+        margin-bottom: 50px;
+    }
+
+    .rodeo {
+        display: block;
+        float: right;
+        padding-left: 50px;
+    }
+
+    #rodeo p {
+        line-height: 30px;
+        text-align: justify;
+        margin-left: 50px;
+
+    }
+
+    #rodeo {
+        display: inline-block;
+    }
+
+    .link a {
+        display: block;
+        margin-left: auto;
+        margin-right: 100px;
+        font-size: 20pt;
+    }
+
+    footer {
+        font-size: 18pt;
+    }
+
+    .map {
+        display: inline-block;
+    }
+
+    .date {
+        font-size: 18pt;
+    }
+}

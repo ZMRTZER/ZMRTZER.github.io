@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+em {
+    color: yellow;
+}
+
+.title {
+    margin-bottom: -1px;
+    background-color: deepskyblue;
+    text-align: center;
+    font-size: 20pt;
+    color: yellow;
+    font-family: "Arial Black", sans-serif;
+}
+
+
+.motto {
+    text-align: center;
+    background-color: deepskyblue;
+    font-size: 12pt;
+    color: white;
+    font-family: "Arial Black", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+.weather {
+    float: left;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    padding: .8rem 2%;
+    color: white;
+
+}
+
+nav {
+    background-color: slateblue;
+    font-size: 16pt;
+    font-family: 'ABeeZee';
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid yellowgreen;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav li.active {
+    background-color: steelblue;
+    color: white;
+}
+
+nav ul.topnav li:not(:first-child) {
+    display: none;
+}
+}
+
+a:link {
+color: yellow;
+}
+
+a:visited {
+    color: midnightblue;
+}
+
+a:focus {
+    color: deepskyblue;
+}
+
+a:hover {
+color: white;
+}
+
+a:active {
+    color: slateblue;
+}
+
+#town {
+    text-align: center;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+}
+
+.summary {
+    position: absolute;
+}
+
+.weathersummary {
+    color: yellow;
+    font-size: 12pt;
+    font-family: Arial, Bold, sans-serif;   
+}
+
+.hero {
+    width: 100%;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 600px) {
+    #forecast, .forecast, .background, .monday, .tuesday, .wednesday, .thursday, .friday {
+        display: none;
+    }
+}
+h3 {
+    color: midnightblue;
+    font-size: 12pt;
+    font-family: Arial, Bold, sans-serif;
+}
+
+
+.link a {
+    text-align: center;
+    font-size: 7pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    article {
+        margin-bottom: 50px;
+    }
+
+    .article {
+        text-align: center;
+    }
+
+    #rodeo {
+        background-color: skyblue;
+    }
+
+    footer {
+        text-align: center;
+        background-color: skyblue;
+        font-size: 8pt;
+        color: yellow;
+        font-family: Arial, Bold, sans-serif;
+    }
