@@ -44,13 +44,18 @@
                     <br>
                     <p>Currently: <em>Sunny</em></p>
                     <br>
-                    <p>Temperature: <em>76 F </em></p>
+                    <p>Temperature: <input type="text" id="temperature" size="1">&deg;F</p>
                     <br>
                     <p>Humidity: <em>69</em></p>
                     <br>
                     <p>Precipitation: <em>0 inches</em></p>
                     <br>
-                    <p>Wind Speed: <em>5 mph</em></p>
+                    <p>Wind Speed: <input type="text" id="speed" size="1">mph</em></p>
+                    
+                    <p class="chill" id="wind"><button onclick="doInputOutput()">Wind Chill:</button></p>
+                    <div id="outputdiv"></div>
+                   
+                    
             </article>
             <picture>
                 <source srcset="images/hero-medium.jpg" media="(min-width: 600px) and (max-width: 1023px)">
@@ -142,5 +147,6 @@
             </footer>
             <script src="script/hamburger.js"></script>
             <script src="script/currentdate.js"></script>  
+            <script src="script/windchill.js"></script>
         </body>
     </html>

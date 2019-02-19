@@ -121,6 +121,23 @@ a:active {
     font-family: Arial, Bold, sans-serif;   
 }
 
+input {
+    background-color: transparent;
+    border-color: midnightblue;
+    color: yellow;
+}
+
+.chill button{
+    background-color: transparent;
+    padding: .8px 2%;
+    color: white;
+    border-color: midnightblue;
+}
+
+#outputdiv {
+    color: yellow;
+}
+
 .hero {
     width: 100%;
     margin-bottom: 50px;
