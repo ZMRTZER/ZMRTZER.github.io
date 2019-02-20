@@ -147,6 +147,20 @@ input {
         display: none;
     }
 }
+
+#gallery {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: none;
+    flex-direction: column;
+    align-items: center;
+}
+
 h3 {
     color: midnightblue;
     font-size: 12pt;

@@ -114,6 +114,21 @@
         font-size: 20pt;
     }
 
+    #gallery{
+        position: relative;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+        justify-content: space-around;
+    }
+
     footer {
         font-size: 18pt;
     }
