@@ -37,6 +37,7 @@ em {
     float: left;
 }
 
+
 nav button {
     background-color: transparent;
     border: none;
@@ -154,11 +155,34 @@ input {
     padding-bottom: 100px;
 }
 
-.gallery {
+#gallery {
     display: flex;
-    flex-wrap: none;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+
+.gallery p {
+    font-size: 10pt;
+    margin-bottom: 100px;
+    padding: 5px 0px 5px 0px;
+    background-color: white;
+    color: midnightblue;
+    width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+
+.gallery p:hover {
+    box-shadow: 0 0 50px steelblue;
+}
+
+.gallery :hover {
+    box-shadow: 0 0 50px slateblue;
 }
 
 h3 {
