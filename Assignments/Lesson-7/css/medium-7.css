@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     body {
         font-size: 20pt;
     }
@@ -13,7 +13,7 @@
 
     .title {
         text-align: center;
-        font-size: 60pt;
+        font-size: 40pt;
         color: yellow;
         font-family: "Arial Black", sans-serif;
     }
@@ -21,7 +21,7 @@
     .motto {
         text-align: center;
         background-color: deepskyblue;
-        font-size: 30pt;
+        font-size: 20pt;
         color: white;
         font-family: "Arial Black", sans-serif;
         padding-bottom: 15px;
@@ -30,7 +30,7 @@
     nav ul li {
         display: inline;
         position: relative;
-        font-size: 30pt;
+        font-size: 25pt;
         padding-left: 15px;
         padding-right: 15px;
         padding-top: 5px;
@@ -49,6 +49,7 @@
 
     #gallery {
         position: relative;
+        width: 100%;
         padding-top: 200px;
         padding-bottom: 200px;
     }
@@ -56,7 +57,7 @@
     #gallery {
         flex-flow: column wrap;
         align-items: center;
-        height: 900px;
+        height: 1500px;
     }
 
     #gallery p {
