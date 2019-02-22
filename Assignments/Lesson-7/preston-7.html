@@ -11,11 +11,12 @@
             <link rel="stylesheet"  href="css/large-7.css">
         </head>
         <body>
-            <picture>
-                <source srcset="images/weather-medium.png" media="(min-width: 600px) and (max-width: 1023px)">
-                   <source srcset="images/weather-large.png" media="(min-width: 1024px)">
-                    <img class="weather" src="images/weather-small.png" alt="logo">
-            </picture>
+            <img class="weather" srcset="images/weather-small.png 50w,
+                                         images/weather-large.png 100w"
+                                     sizes="(max-width: 600px) 50px,
+                                            (max-width: 768px) 75px,
+                                             100px" 
+                                     src="images/weather-small.png" alt="logo">
             <header>
                 <h1 class="title">Weathered.World</h1>
                 <div class="motto"> 
@@ -41,27 +42,28 @@
             </main>
             <article class="summary">
                     <h3 class="weathersummary">Weather Summary</h3>
-                    <br>
+                    
                     <p>Currently: <em>Sunny</em></p>
                     <br>
-                    <p>Temperature: <input type="text" id="temperature" size="1">&deg;F</p>
+                    <p>Temperature: <input type="text" id="temperature" size="2">&deg;F</p>
                     <br>
                     <p>Humidity: <em>69</em></p>
                     <br>
                     <p>Precipitation: <em>0 inches</em></p>
                     <br>
-                    <p>Wind Speed: <input type="text" id="speed" size="1">mph</em></p>
+                    <p>Wind Speed: <input type="text" id="speed" size="2">mph</em></p>
                     
                     <p class="chill" id="wind"><button onclick="doInputOutput()">Wind Chill:</button></p>
                     <div id="outputdiv"></div>
                    
                     
             </article>
-            <picture>
-                <source srcset="images/hero-medium.jpg" media="(min-width: 600px) and (max-width: 1023px)">
-                    <source srcset="images/hero-image.jpg" media="(min-width: 1024px)">
-                <img class="hero" src="images/hero-small.jpg" alt="hero image">
-            </picture>
+            <img class="hero" srcset="images/hero-small.jpg 320w,
+                                         images/hero-large.jpg 760w"
+                                     sizes="(max-width: 600px) 300px,
+                                            (max-width: 768px) 500px,
+                                             700px" 
+                                     src="images/hero-small.jpg" alt="hero image">
             <article id="forecast">
                     <h3 class="forecast">Five Day Forecast</h3>
                 <br>

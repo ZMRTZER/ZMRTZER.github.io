@@ -13,18 +13,22 @@
 
     .title {
         text-align: center;
-        font-size: 40pt;
+        font-size: 35pt;
         color: yellow;
         font-family: "Arial Black", sans-serif;
     }
     
+    .weather {
+        left: 80px;;
+    }
+
     .motto {
         text-align: center;
         background-color: deepskyblue;
-        font-size: 20pt;
+        font-size: 15pt;
         color: white;
         font-family: "Arial Black", sans-serif;
-        padding-bottom: 15px;
+        padding-bottom: 5px;
     }
 
     nav ul li {

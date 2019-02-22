@@ -12,11 +12,13 @@
             <link rel="stylesheet"  href="css/large-7.css">
         </head>
         <body>
-                <picture>
-                        <source srcset="images/weather-medium.png" media="(max-width: 1023px)">
-                           <source srcset="images/weather-large.png" media="(min-width: 1024px)">
-                            <img class="weather" src="images/weather-small.png" alt="logo">
-                    </picture>
+                <img class="weather" srcset="images/weather-small.png 50w,
+                                             images/weather-medium.png 75w,
+                                             images/weather-large.png 100w"
+                                     sizes="(max-width: 600px) 50px,
+                                            (max-width: 768px) 75px,
+                                             100px" 
+                                     src="images/weather-small.png" alt="logo">
             <header>
                 <h1 class="title">Weathered.World</h1>
                 <div class="motto"> 
@@ -38,35 +40,53 @@
                 </ul>
             </nav>
             <main id="gallery">
-                <picture>
-                    <source srcset="images/weather-1mid.jpg" media="(min-width: 768px) and (max-width: 1023px)">
-                    <img src="images/weather-1.jpg">
-                </picture>
+                    <img    srcset="images/weather-1small.jpg 300w,
+                                    images/weather-1mid.jpg 360w,
+                                    images/weather-1.jpg 500w"
+                            sizes="(max-width: 600px) 300px,
+                                    (max-width: 768px) 360px,
+                                    500px"
+                            src="images/weather-1.jpg" alt="Cloudy Sky">
                     <p>sajfdslfjsajf</p>
-                <picture>
-                    <source srcset="images/weather-2mid.jpg" media="(min-width: 768px) and (max-width: 1023px)">
-                    <img src="images/weather-2.jpg">
-                </picture>
+                    <img    srcset="images/weather-2small.jpg 300w,
+                                    images/weather-2mid.jpg 360w,
+                                    images/weather-2.jpg 500w"
+                            sizes="(max-width: 600px) 300px,
+                                    (max-width: 768px) 360px,
+                                    500px"
+                            src="images/weather-2.jpg" alt="Sunset">
                     <p>;jiofsjesjfijoafdsi</p>
-                <picture>
-                    <source srcset="images/weather-3mid.jpg" media="(min-width: 768px) and (max-width: 1023px)">
-                    <img src="images/weather-3.jpg">
-                </picture>
+                    <img    srcset="images/weather-3small.jpg 300w,
+                                    images/weather-3mid.jpg 360w,
+                                    images/weather-3.jpg 500w"
+                            sizes="(max-width: 600px) 300px,
+                                    (max-width: 768px) 360px,
+                                    500px"
+                            src="images/weather-3.jpg" alt="Lightning">
                     <p>djaisdfjekdsjoiajfd</p>
-                <picture>
-                    <source srcset="images/weather-4mid.jpg" media="(min-width: 768px) and (max-width: 1023px)">
-                    <img src="images/weather-4.jpg">
-                </picture>
+                    <img    srcset="images/weather-4small.jpg 300w,
+                                    images/weather-4mid.jpg 360w,
+                                    images/weather-4.jpg 500w"
+                            sizes="(max-width: 600px) 300px,
+                                    (max-width: 768px) 360px,
+                                    500px"
+                            src="images/weather-4.jpg" alt="Glacier">
                     <p>oelsfjveis</p>
-                <picture>
-                    <source srcset="images/weather-5mid.jpg" media="(min-width: 768px) and (max-width: 1023px)">
-                    <img src="images/weather-5.jpg">
-                </picture>
+                    <img    srcset="images/weather-5small.jpg 300w,
+                                    images/weather-5mid.jpg 360w,
+                                    images/weather-5.jpg 500w"
+                            sizes="(max-width: 600px) 300px,
+                                    (max-width: 768px) 360px,
+                                    500px"
+                            src="images/weather-5.jpg" alt="Storm">
                     <p>sdkeiasodijefw</p>
-                <picture>
-                    <source srcset="images/weather-6mid.jpg" media="(min-width: 768px) and (max-width: 1023px)">
-                    <img src="images/weather-6.jpg">
-                </picture>
+                    <img    srcset="images/weather-6small.jpg 300w,
+                                    images/weather-6mid.jpg 360w,
+                                    images/weather-6.jpg 500w"
+                            sizes="(max-width: 600px) 300px,
+                                    (max-width: 768px) 360px,
+                                    500px"
+                            src="images/weather-6.jpg" alt="Sunny">
                 <p>djeiwdigoeas</p>
             </main>
             <footer id="contact">

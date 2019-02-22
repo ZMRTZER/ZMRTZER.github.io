@@ -27,9 +27,10 @@ em {
 .motto {
     text-align: center;
     background-color: deepskyblue;
-    font-size: 12pt;
+    font-size: 10;
     color: white;
     font-family: "Arial Black", sans-serif;
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width: 600px) {
@@ -107,7 +108,7 @@ a:active {
 
 #town {
     text-align: center;
-    font-size: 14pt;
+    font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
     color: midnightblue;
 }
@@ -166,7 +167,7 @@ input {
     font-size: 10pt;
     background-color: white;
     color: midnightblue;
-    width: 100%;
+    width: 300px;
     margin-bottom: 100px;
     padding: 5px 0px 10px 0px;
     text-align: center;
@@ -180,11 +181,7 @@ input {
     box-shadow: 0 0 50px slateblue;
 }
 
-@media screen and (max-width: 600px) {
-#gallery img {
-    width: 100%;
-}
-}
+
 
 h3 {
     color: midnightblue;

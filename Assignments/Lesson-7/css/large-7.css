@@ -13,18 +13,23 @@
 
     .title {
         text-align: center;
-        font-size: 60pt;
+        font-size: 50pt;
         color: yellow;
         font-family: "Arial Black", sans-serif;
+        
+    }
+
+    .weather {
+        left: 500px;
     }
     
     .motto {
         text-align: center;
         background-color: deepskyblue;
-        font-size: 30pt;
+        font-size: 20pt;
         color: white;
         font-family: "Arial Black", sans-serif;
-        padding-bottom: 15px;
+        padding-bottom: 5px;
     }
 
     nav ul li {
@@ -55,7 +60,7 @@
 
     #gallery {
         flex-flow: column wrap;
-        align-items: center;
+        align-content: center;
         height: 900px;
     }
 
