@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
     body {
-        font-size: 20pt;
+        font-size: 15pt;
     }
 
     .weather {
@@ -34,7 +34,7 @@
     nav ul li {
         display: inline;
         position: relative;
-        font-size: 25pt;
+        font-size: 16pt;
         padding-left: 15px;
         padding-right: 15px;
         padding-top: 5px;
@@ -49,6 +49,7 @@
 
     .topnav {
         text-align: center;
+        line-height: 35px;
     }
 
     #gallery {
@@ -76,45 +77,33 @@
     }
 
     #town {
-        font-size: 40pt;
-        margin-top: 200px;
-        margin-bottom: 150px;
+        font-size: 26pt;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 
     .weathersummary {
-        font-size: 30pt;
+        font-size: 20pt;
+        margin-bottom: 15px;
     }
 
-    #forecast {
-        position: absolute;
-        margin-top: -15px;
-        left: 30px;
+    .hero, .summary {
+        margin-left: 35px;
     }
 
-    .forecast {
-        color: yellow;
-        font-size: 30pt;
-        font-family: Arial, Bold, sans-serif;
-    }
-
-    .background {
-        width: 100%;
-    }
-
-    h4 {
-        color: yellow;
-        font-size: 25pt;
+    @media screen and (max-width: 768px) {
+        #forecast, .forecast, .background, .monday, .tuesday, .wednesday, .thursday, .friday {
+            display: none;
+        }
     }
 
     h3 {
-        text-align: center;
         font-size: 30pt;
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     .article {
-        margin-top: 200px;
-        font-size: 40pt;
+        font-size: 30pt;
         margin-bottom: 50px;
     }
 
@@ -125,25 +114,30 @@
     }
 
     #rodeo p {
-        line-height: 30px;
-        text-align: justify;
-        margin-left: 50px;
+        line-height: 26px;
+        text-align: justify left;
+        margin-left: 30px;
 
     }
 
     #rodeo {
+        margin-top: 100px;
         display: inline-block;
+    }
+
+    #rodeo img {
+        position: relative;
+        margin-right: 30px;
     }
 
     .link a {
         display: block;
         margin-left: auto;
-        margin-right: 100px;
-        font-size: 20pt;
+        font-size: 16pt;
     }
 
     footer {
-        font-size: 18pt;
+        font-size: 12pt;
     }
 
     .map {
@@ -151,6 +145,6 @@
     }
 
     .date {
-        font-size: 18pt;
+        font-size: 12pt;
     }
 }

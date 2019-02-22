@@ -8,10 +8,12 @@
             <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
             <link rel="stylesheet" href="css/normalize.css">
             <link rel="stylesheet" href="css/small-7.css">
+            <link rel="stylesheet" href="css/medium-7.css">
             <link rel="stylesheet"  href="css/large-7.css">
         </head>
         <body>
             <img class="weather" srcset="images/weather-small.png 50w,
+                                         images/weather-medium.png 75w,
                                          images/weather-large.png 100w"
                                      sizes="(max-width: 600px) 50px,
                                             (max-width: 768px) 75px,
@@ -58,12 +60,13 @@
                    
                     
             </article>
-            <img class="hero" srcset="images/hero-small.jpg 320w,
-                                         images/hero-large.jpg 760w"
-                                     sizes="(max-width: 600px) 300px,
-                                            (max-width: 768px) 500px,
-                                             700px" 
-                                     src="images/hero-small.jpg" alt="hero image">
+            <img class="hero" srcset="images/hero-small.jpg 320w, 
+                                      images/hero-medium.jpg 700w,
+                                      images/hero-image.jpg 850w"
+                              sizes="(max-width: 600px) 300px,
+                                     (max-width: 768px) 700px,
+                                      800px" 
+                              src="images/hero-small.jpg" alt="hero image">
             <article id="forecast">
                     <h3 class="forecast">Five Day Forecast</h3>
                 <br>
@@ -102,11 +105,7 @@
                     <p><em>Mildly Cloudy</em></p>
                 </section>
                 </article>
-                <picture>
-                    <source srcset="images/background-small.jpg" media="(min-width: 600px) and (max-width: 1023px)">
-                    <source srcset="images/background-large.jpg" media="(min-width: 1024px)">
-                    <img class="background" src="images/background-small.jpg" alt="cabin background">
-                </picture>
+                    <img class="background" src="images/background.jpg" alt="cabin background">
                 <br>
                 <article id="rodeo">
                     
@@ -114,7 +113,13 @@
                     <picture>
                         <source srcset="images/rodeo-medium.jpg" media="(min-width: 600px) and (max-width: 1023px)">
                         <source srcset="images/rodeo-large.jpg" media="(min-width: 1024px)">
-                        <img class="rodeo" src="images/rodeo-small.jpg" alt="article image">
+                        <img class="rodeo" srcset="images/rodeo-small.jpg 320w,
+                                                   images/rodeo-medium.jpg 400w,
+                                                   images/rodeo-large.jpg 760w"
+                                            sizes="(max-width: 600px) 320px,
+                                                   (max-width: 768px) 400px,
+                                                    500px"
+                        src="images/rodeo-small.jpg" alt="article image">
                     </picture>
                     <p>The 83rd annual celebration of That Famous Preston Night Rodeo begins today, July 26, 2018, and runs through Saturday, July 28.
                         Already, Benson Park is filling with booths full of food, finds and fun. State Street's sidewalk sale has begun and PRCA merchandise is available 
@@ -140,7 +145,13 @@
                 <picture>
                     <source srcset="images/map-medium.png" media="(min-width: 600px) and (max-width: 1023px)">
                     <source srcset="images/map-large.png" media="(min-width: 1024px)">
-                    <img class="map" src="images/map-small.png" alt="map image">
+                    <img class="map" srcset="images/map-small.png 110w,
+                                             images/map-medium.png 320w,
+                                             images/map-large.png 430w"
+                                     sizes="(max-width: 600px) 100px,
+                                            (max-width: 768px) 300px,
+                                            400px"
+                    src="images/map-small.png" alt="map image">
                 </picture>
             </footer>
             <footer>

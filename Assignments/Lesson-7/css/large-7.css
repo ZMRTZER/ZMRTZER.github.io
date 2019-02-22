@@ -1,4 +1,5 @@
 @media screen and (min-width: 769px) {
+    
     body {
         font-size: 20pt;
     }
@@ -76,6 +77,15 @@
         margin-right: 10px;
     }
 
+    #gallery p:hover {
+        box-shadow: 0 0 50px steelblue;
+    }
+    
+    #gallery img:hover {
+        box-shadow: 0 0 50px slateblue;
+    }
+    
+
     #town {
         font-size: 40pt;
         margin-top: 200px;
@@ -83,12 +93,13 @@
     }
 
     .weathersummary {
-        font-size: 30pt;
+        font-size: 24pt;
+        text-align: left;
+        left: 15px;
     }
 
     #forecast {
         position: absolute;
-        margin-top: -15px;
         left: 30px;
     }
 
@@ -96,10 +107,6 @@
         color: yellow;
         font-size: 30pt;
         font-family: Arial, Bold, sans-serif;
-    }
-
-    .background {
-        width: 100%;
     }
 
     h4 {
@@ -110,11 +117,10 @@
     h3 {
         text-align: center;
         font-size: 30pt;
-        margin-top: 30px;
+    
     }
 
     .article {
-        margin-top: 200px;
         font-size: 40pt;
         margin-bottom: 50px;
     }
@@ -133,6 +139,7 @@
     }
 
     #rodeo {
+        margin-top: 200px;
         display: inline-block;
     }
 
@@ -153,5 +160,19 @@
 
     .date {
         font-size: 18pt;
+    }
+
+    .hero, .summary {
+        margin-left: 525px;
+        margin-bottom: 200px;
+    }
+
+    .background {
+        margin-left: 250px;
+    }
+
+    #forecast, #rodeo, #contact, footer {
+        margin-right: 250px;
+        margin-left: 250px;
     }
 }
