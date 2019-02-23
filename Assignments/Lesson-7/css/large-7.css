@@ -4,87 +4,40 @@
         font-size: 20pt;
     }
 
+    #banner {
+        flex-flow: column wrap;
+        align-items: center;
+        align-content: center;
+    }
+
     .weather {
-        position: absolute;
-    }
-
-    header {
-        width: 100%;
-    }
-
-    .title {
-        text-align: center;
-        font-size: 50pt;
-        color: yellow;
-        font-family: "Arial Black", sans-serif;
+        margin-right: 425px;
         
     }
 
-    .weather {
-        left: 500px;
-    }
-    
-    .motto {
-        text-align: center;
-        background-color: deepskyblue;
-        font-size: 20pt;
-        color: white;
-        font-family: "Arial Black", sans-serif;
-        padding-bottom: 5px;
+    .title {
+        font-size: 30pt;
+        margin-top: -180px;
     }
 
-    nav ul li {
-        display: inline;
-        position: relative;
-        font-size: 30pt;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        padding-bottom: 25px;
-        font-family: 'ABeeZee';
-        list-style: none;
+    .motto {
+        font-size: 20pt;
+        margin-top: -50px;
+        padding-bottom: 5px;
     }
 
     nav button {
         display: none;
     }
 
-    .topnav {
+    #mytopnav {
+        margin-bottom: 20px;
+        list-style: none;
+        font-size: 28pt;
         text-align: center;
+        font-family: 'ABeeZee';
+        line-height: 60px;
     }
-
-    #gallery {
-        position: relative;
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
-
-    #gallery {
-        flex-flow: column wrap;
-        align-content: center;
-        height: 900px;
-    }
-
-    #gallery p {
-        font-size: 16pt;
-        width: 500px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    #gallery img {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    #gallery p:hover {
-        box-shadow: 0 0 50px steelblue;
-    }
-    
-    #gallery img:hover {
-        box-shadow: 0 0 50px slateblue;
-    }
-    
 
     #town {
         font-size: 40pt;
@@ -160,6 +113,86 @@
 
     .date {
         font-size: 18pt;
+    }
+
+    #gallery {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 12vw);
+        grid-gap: 50px;
+    }
+
+    #gallery {
+        margin-top: 100px;
+        margin-bottom: 300px;
+        margin-left: 70px;
+    }
+
+    .cloudy {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .one {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+    .sunset {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .two {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+
+    .lightning {
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+
+    .three {
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+
+    .glacier {
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+
+    .four {
+        grid-column-start: 1;
+        grid-row-start: 4;
+        margin-top: -60px;
+    }
+
+    .storm {
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+
+    .five {
+        grid-column-start: 2;
+        grid-row-start: 4;
+        margin-top: -60px;
+    }
+
+    .sunny {
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+
+    .six {
+        grid-column-start: 3;
+        grid-row-start: 4;
+        margin-top: -60px;
+    }
+
+    #gallery p {
+        font-size: 32pt;
+        width: 500px;
     }
 
     .hero, .summary {

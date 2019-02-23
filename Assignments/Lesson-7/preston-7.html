@@ -12,31 +12,34 @@
             <link rel="stylesheet"  href="css/large-7.css">
         </head>
         <body>
-            <img class="weather" srcset="images/weather-small.png 50w,
-                                         images/weather-medium.png 75w,
-                                         images/weather-large.png 100w"
-                                     sizes="(max-width: 600px) 50px,
-                                            (max-width: 768px) 75px,
-                                             100px" 
-                                     src="images/weather-small.png" alt="logo">
-            <header>
-                <h1 class="title">Weathered.World</h1>
+            <header id="banner">
+                    <div class="weather">
+                            <img class="weather" srcset="images/weather-small.png 50w,
+                            images/weather-medium.png 75w,
+                            images/weather-large.png 100w"
+                        sizes="(max-width: 600px) 50px,
+                               (max-width: 768px) 75px,
+                                100px" 
+                        src="images/weather-small.png" alt="logo">
+                    </div>
+                <div class="title">
+                    <h1>Weathered.World</h1>
+                </div>
                 <div class="motto"> 
                     <p>"Never get Tired of Weather"</p>
                 </div>
             </header>
             
             <br>
-            <nav>
-                    
+            <nav id="navigation">  
                 <ul id="mytopnav" class="topnav">
-                    <li><button onclick="toggleMenu()">&#9776;Menu</button></li>
-                    <li><a href="Home" title="Home">Home</a></li>
-                    <li class="active"><a href="preston-7.html" title="Preston" class="active">Preston</a></li>
-                    <li><a href="SodaSprings" title="Soda Springs">Soda Springs</a></li>
-                    <li><a href="FishHaven" title="Fish Haven">Fish Haven</a></li>
-                    <li><a href="StormCenter" title="Storm Center">Storm Center</a></li>
-                    <li><a href="gallery-7.html" title="Gallery">Gallery</a></li>
+                    <div><li><button onclick="toggleMenu()">&#9776;Menu</button></li></div>
+                    <div class="home"><li><a href="Home" title="Home">Home</a></li></div>
+                    <div class="preston"><li class="active"><a href="preston-7.html" title="Preston" class="active">Preston</a></li></div>
+                    <div class="sodasprings"><li><a href="SodaSprings" title="Soda Springs">Soda Springs</a></li></div>
+                    <div class="fishhaven"><li><a href="FishHaven" title="Fish Haven">Fish Haven</a></li></div>
+                    <div class="stormcenter"><li><a href="StormCenter" title="Storm Center">Storm Center</a></li></div>
+                    <div class="gallery"><li><a href="gallery-7.html" title="Gallery">Gallery</a></li></div>
                 </ul>
             </nav>
             <main id="town">

@@ -3,78 +3,60 @@
         font-size: 15pt;
     }
 
-    .weather {
-        position: absolute;
-    }
-
-    header {
-        width: 100%;
-    }
-
     .title {
-        text-align: center;
-        font-size: 35pt;
-        color: yellow;
-        font-family: "Arial Black", sans-serif;
-    }
-    
-    .weather {
-        left: 80px;;
+        font-size: 20pt;
     }
 
     .motto {
-        text-align: center;
-        background-color: deepskyblue;
-        font-size: 15pt;
-        color: white;
-        font-family: "Arial Black", sans-serif;
-        padding-bottom: 5px;
+        font-size: 14pt;
+        margin-left: 50px;
+        margin-top: -30px;
     }
 
-    nav ul li {
-        display: inline;
-        position: relative;
-        font-size: 16pt;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        padding-bottom: 25px;
-        font-family: 'ABeeZee';
+    .weather {
+        margin-top: 20px;
+    }
+
+@media screen and (max-width: 768px) {
+    
+    .topnav :not(:first-child) {
+            display: none;
+        }
+        
+    
+    #mytopnav {
+        margin-top: -22px;
+        margin-bottom: 20px;
         list-style: none;
-    }
-
-    nav button {
-        display: none;
-    }
-
-    .topnav {
+        background-color: slateblue;
+        font-size: 24pt;
         text-align: center;
-        line-height: 35px;
-    }
-
-    #gallery {
-        position: relative;
+        font-family: 'ABeeZee';
         width: 100%;
-        padding-top: 300px;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        padding: .8rem 2%;
+    }
+    
+    nav button {
+        background-color: transparent;
+        border: none;
+        padding: .8rem 2%;
+        color: white;
     }
 
-    #gallery {
-        flex-flow: column wrap;
-        align-items: center;
-        height: 1200px;
-    }
+    nav ul li a:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
 
-    #gallery p {
-        font-size: 16pt;
-        width: 360px;
-        margin-left: 10px;
-        margin-right: 10px;
+    nav li.active {
+        background-color: steelblue;
+        color: white;
     }
-
-    #gallery img {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+}
 
     #town {
         font-size: 26pt;
@@ -134,6 +116,83 @@
         display: block;
         margin-left: auto;
         font-size: 16pt;
+    }
+
+    #gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 20vw);
+        grid-gap: 50px;
+    }
+
+    #gallery {
+        margin-top: 200px;
+        margin-bottom: 200px;
+        margin-left: -5px;
+    }
+
+    .cloudy {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .one {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+    .sunset {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .two {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+
+    .lightning {
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+
+    .three {
+        grid-column-start: 1;
+        grid-row-start: 4;
+    }
+
+    .glacier {
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+
+    .four {
+        grid-column-start: 2;
+        grid-row-start: 4;
+    }
+
+    .storm {
+        grid-column-start: 1;
+        grid-row-start: 5;
+    }
+
+    .five {
+        grid-column-start: 1;
+        grid-row-start: 6;
+    }
+
+    .sunny {
+        grid-column-start: 2;
+        grid-row-start: 5;
+    }
+
+    .six {
+        grid-column-start: 2;
+        grid-row-start: 6;
+    }
+
+    #gallery p {
+        font-size: 24pt;
+        width: 360px;
     }
 
     footer {
