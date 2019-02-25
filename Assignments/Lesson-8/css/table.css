@@ -1,0 +1,42 @@
+table, caption, thead, th, td, tfoot {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+table {
+    font-family: Ubuntu, sans-serif; 
+    font-size: 24pt; 
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption {
+    background-color: #7fb9c2; 
+    font-size: 30pt;
+    padding: 5px 10px 5px 10px;
+}
+
+caption, thead, th, td, tfoot {
+    border: 1px solid black;
+}
+
+thead {
+    background-color: #628ca6;
+    color: white; 
+   
+}
+
+th {
+    padding: 5px 10px 5px 10px;
+}
+
+td {
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+}
+
+tfoot {
+    text-align: center;
+    font-size: 12pt;
+    padding: 5px 10px 5px 10px;
+}
