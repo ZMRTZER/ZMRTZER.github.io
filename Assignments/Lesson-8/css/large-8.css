@@ -1,0 +1,211 @@
+@media screen and (min-width: 769px) {
+    
+    body {
+        font-size: 20pt;
+    }
+
+    #banner {
+        flex-flow: column wrap;
+        align-items: center;
+        align-content: center;
+    }
+
+    .weather {
+        margin-right: 425px;
+        
+    }
+
+    .title {
+        font-size: 30pt;
+        margin-top: -180px;
+    }
+
+    .motto {
+        font-size: 20pt;
+        margin-top: -50px;
+        padding-bottom: 5px;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    #mytopnav {
+        margin-bottom: 20px;
+        list-style: none;
+        font-size: 28pt;
+        text-align: center;
+        font-family: 'ABeeZee';
+        line-height: 60px;
+    }
+
+    #town {
+        font-size: 40pt;
+        margin-top: 200px;
+        margin-bottom: 150px;
+    }
+
+    .weathersummary {
+        font-size: 24pt;
+        text-align: left;
+        left: 15px;
+    }
+
+    #forecast {
+        position: absolute;
+        left: 30px;
+    }
+
+    .forecast {
+        color: yellow;
+        font-size: 30pt;
+        font-family: Arial, Bold, sans-serif;
+    }
+
+    h4 {
+        color: yellow;
+        font-size: 25pt;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 30pt;
+    
+    }
+
+    .article {
+        font-size: 40pt;
+        margin-bottom: 50px;
+    }
+
+    .rodeo {
+        display: block;
+        float: right;
+        padding-left: 50px;
+    }
+
+    #rodeo p {
+        line-height: 30px;
+        text-align: justify;
+        margin-left: 50px;
+
+    }
+
+    #rodeo {
+        margin-top: 200px;
+        display: inline-block;
+    }
+
+    .link a {
+        display: block;
+        margin-left: auto;
+        margin-right: 100px;
+        font-size: 20pt;
+    }
+
+    footer {
+        font-size: 18pt;
+    }
+
+    .map {
+        display: inline-block;
+    }
+
+    .date {
+        font-size: 18pt;
+    }
+
+    #gallery {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 12vw);
+        grid-gap: 50px;
+    }
+
+    #gallery {
+        margin-top: 100px;
+        margin-bottom: 300px;
+        margin-left: 70px;
+    }
+
+    .cloudy {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .one {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+    .sunset {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .two {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+
+    .lightning {
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+
+    .three {
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+
+    .glacier {
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+
+    .four {
+        grid-column-start: 1;
+        grid-row-start: 4;
+        margin-top: -60px;
+    }
+
+    .storm {
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+
+    .five {
+        grid-column-start: 2;
+        grid-row-start: 4;
+        margin-top: -60px;
+    }
+
+    .sunny {
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+
+    .six {
+        grid-column-start: 3;
+        grid-row-start: 4;
+        margin-top: -60px;
+    }
+
+    #gallery p {
+        font-size: 32pt;
+        width: 500px;
+    }
+
+    .hero, .summary {
+        margin-left: 525px;
+        margin-bottom: 200px;
+    }
+
+    .background {
+        margin-left: 250px;
+    }
+
+    #forecast, #rodeo, #contact, footer {
+        margin-right: 250px;
+        margin-left: 250px;
+    }
+}

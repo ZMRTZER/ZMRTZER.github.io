@@ -1,0 +1,209 @@
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 15pt;
+    }
+
+    .title {
+        font-size: 20pt;
+    }
+
+    .motto {
+        font-size: 14pt;
+        margin-left: 50px;
+        margin-top: -30px;
+    }
+
+    .weather {
+        margin-top: 20px;
+    }
+
+@media screen and (max-width: 768px) {
+    
+    .topnav :not(:first-child) {
+            display: none;
+        }
+        
+    
+    #mytopnav {
+        margin-top: -22px;
+        margin-bottom: 20px;
+        list-style: none;
+        background-color: slateblue;
+        font-size: 24pt;
+        text-align: center;
+        font-family: 'ABeeZee';
+        width: 100%;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        padding: .8rem 2%;
+    }
+    
+    nav button {
+        background-color: transparent;
+        border: none;
+        padding: .8rem 2%;
+        color: white;
+    }
+
+    nav ul li a:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+
+    nav li.active {
+        background-color: steelblue;
+        color: white;
+    }
+}
+
+    #town {
+        font-size: 26pt;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .weathersummary {
+        font-size: 20pt;
+        margin-bottom: 15px;
+    }
+
+    .hero, .summary {
+        margin-left: 35px;
+    }
+
+    @media screen and (max-width: 768px) {
+        #forecast, .forecast, .background, .monday, .tuesday, .wednesday, .thursday, .friday {
+            display: none;
+        }
+    }
+
+    h3 {
+        font-size: 30pt;
+        margin-top: 15px;
+    }
+
+    .article {
+        font-size: 30pt;
+        margin-bottom: 50px;
+    }
+
+    .rodeo {
+        display: block;
+        float: right;
+        padding-left: 50px;
+    }
+
+    #rodeo p {
+        line-height: 26px;
+        text-align: left;
+        margin-left: 30px;
+
+    }
+
+    #rodeo {
+        margin-top: 100px;
+        display: inline-block;
+    }
+
+    #rodeo img {
+        position: relative;
+        margin-right: 30px;
+    }
+
+    .link a {
+        display: block;
+        margin-left: auto;
+        font-size: 16pt;
+    }
+
+    #gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 20vw);
+        grid-gap: 50px;
+    }
+
+    #gallery {
+        margin-top: 200px;
+        margin-bottom: 200px;
+        margin-left: -5px;
+    }
+
+    .cloudy {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .one {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+    .sunset {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .two {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+
+    .lightning {
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+
+    .three {
+        grid-column-start: 1;
+        grid-row-start: 4;
+    }
+
+    .glacier {
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+
+    .four {
+        grid-column-start: 2;
+        grid-row-start: 4;
+    }
+
+    .storm {
+        grid-column-start: 1;
+        grid-row-start: 5;
+    }
+
+    .five {
+        grid-column-start: 1;
+        grid-row-start: 6;
+    }
+
+    .sunny {
+        grid-column-start: 2;
+        grid-row-start: 5;
+    }
+
+    .six {
+        grid-column-start: 2;
+        grid-row-start: 6;
+    }
+
+    #gallery p {
+        font-size: 24pt;
+        width: 360px;
+    }
+
+    footer {
+        font-size: 12pt;
+    }
+
+    .map {
+        display: inline-block;
+    }
+
+    .date {
+        font-size: 12pt;
+    }
+}
