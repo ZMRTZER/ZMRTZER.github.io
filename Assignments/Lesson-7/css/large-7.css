@@ -127,6 +127,14 @@
         margin-left: 70px;
     }
 
+    #gallery img:hover {
+        box-shadow: 0 0 50px slateblue;
+    }
+
+    #gallery p:hover {
+        box-shadow: 0 0 50px steelblue;
+    }
+
     .cloudy {
         grid-column-start: 1;
         grid-row-start: 1;

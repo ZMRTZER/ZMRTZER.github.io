@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Weathered - Gallery</title>
+            <meta name="description" content="CIT 230 weather site Gallery page.">
+            <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small-8.css">
+            <link rel="stylesheet" href="css/medium-8.css">
+            <link rel="stylesheet"  href="css/large-8.css">
+        </head>
+        <body>
+                <header id="banner">
+                        <div class="weather">
+                                <img class="weather" srcset="images/weather-small.png 50w,
+                                images/weather-medium.png 75w,
+                                images/weather-large.png 100w"
+                            sizes="(max-width: 600px) 50px,
+                                   (max-width: 768px) 75px,
+                                    100px" 
+                            src="images/weather-small.png" alt="logo">
+                        </div>
+                    <div class="title">
+                        <h1>Weathered.World</h1>
+                    </div>
+                    <div class="motto"> 
+                        <p>"Never get Tired of Weather"</p>
+                    </div>
+                </header>
+            <br>
+            <main id="thanks">
+                <h2>Thank You</h2>
+                <p>Your Submission is being Processed</p>
+                <p><a href="stormcenter.html">Back</a></p>
+            </main>
+            <footer id="contact">
+                <h3>Contact Information</h3>
+                <p><em>Weathered</em></p>
+                <p>weatheredworld&commat;tws.com</p>
+                <p>(999)-999-9999</p>
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <picture>
+                    <source srcset="images/map-medium.png" media="(min-width: 600px) and (max-width: 1023px)">
+                    <source srcset="images/map-large.png" media="(min-width: 1024px)">
+                    <img class="map" src="images/map-small.png" alt="map image">
+                </picture>
+            </footer>
+            <footer>
+                <p>&copy;2019 Weathered | Attributions? | Braden Hamilton</p>
+                <p class="week" id="day"></p><p class="date" id="datetime"></p>
+            </footer>
+            <script src="script/hamburger.js"></script>
+            <script src="script/currentdate.js"></script>
+            <script src="script/range.js"></script>  
+        </body>
+    </html>

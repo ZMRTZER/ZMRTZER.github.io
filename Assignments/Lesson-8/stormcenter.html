@@ -44,15 +44,20 @@
             <main id="stormform">
                 <form action="thanks.html" target="_blank" method="get">
                     <P>Full Name:</P>
-                    <input type="text" name="fullname" pattern="[a-zA-z]{5,20}" title="First-Name Last-Name" required>
+                    <input type="text" name="fullname" pattern="[a-zA-z]{5,20}" title="First-Name Last-Name" required autofocus>
+                    <br><br>
                     <p>Email:</p>
                     <input type="email" name="email" placeholder="myEmail@gmail.com">
+                    <br><br>
                     <p>Phone Number:</p>
                     <input type="tel" name="phonenumber" required>
+                    <br><br>
                     <p>Zip Code:</p>
                     <input type="number" id="zip" name="code" required>
+                    <br><br>
                     <p>Storm Date:</p>
                     <input type="date" id="date" name="stormdate">
+                    <br><br>
                     <p>Storm Type:</p>
                     <input list="stormtypes">
                     <datalist id="storms">
@@ -62,10 +67,12 @@
                         <option value="Thunderstorm"></option>
                         <option value="Tornado"></option>
                     </datalist>
+                    <br><br>
                     <p>Storm Severity <em>Rating (1 to 10)</em>:</p>
                     <input type="range" id="range" name="severity" min="1" max="10"
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="rangevalue">10</span>
+                    <br><br>
                     <p>Storm Region:</p>
                     <select name="regions">
                        <option selected disabled>Select Region...</option>
@@ -73,6 +80,7 @@
                        <option value="sodasprings">Soda Springs</option>
                        <option value="fishhaven">Fish Haven</option>
                     </select>
+                    <br><br>
                     <p>User In-Danger <em>(Choose One)</em>:</p>
                     <div>
                         <input type="radio" id="dangerone" name="danger" value="yes">
@@ -86,8 +94,10 @@
                         <input type="radio" id="dangerthree" name="danger" value="maybe">
                         <label for="danger3">Maybe</label>
                     </div>
+                    <br><br>
                     <p>Additional Information or Comments:</p>
                     <textarea name="comment" rows="10" cols="40"></textarea><br>
+                    <br><br>
                     <input type="submit" id="submission" name="submitbutton" value="Form Submission">
                 </form>
             </main>
@@ -108,8 +118,6 @@
                 <p>&copy;2019 Weathered | Attributions? | Braden Hamilton</p>
                 <p class="week" id="day"></p><p class="date" id="datetime"></p>
             </footer>
-            <script src="script/hamburger.js"></script>
             <script src="script/currentdate.js"></script>
-            <script src="script/range.js"></script>  
         </body>
     </html>

@@ -127,6 +127,14 @@
         margin-left: 70px;
     }
 
+    #gallery img:hover {
+        box-shadow: 0 0 50px steelblue;
+    }
+
+    #gallery p:hover {
+        box-shadow: 0 0 50px slateblue;
+    }
+
     .cloudy {
         grid-column-start: 1;
         grid-row-start: 1;
@@ -208,4 +216,12 @@
         margin-right: 250px;
         margin-left: 250px;
     }
+}
+
+form {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
