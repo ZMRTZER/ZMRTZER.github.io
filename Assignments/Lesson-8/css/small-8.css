@@ -208,3 +208,22 @@ h3 {
     width: 300px;
     text-align: center;
 }
+
+form {
+    background-color: deepskyblue;
+    color: yellow;
+}
+
+input {
+    background-color: white;
+    color: black;
+}
+
+ label {
+    color: black;
+}
+
+#submission {
+    background-color: midnightblue;
+    color: yellow;
+}
