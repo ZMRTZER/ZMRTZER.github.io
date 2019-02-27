@@ -5,14 +5,18 @@ table, caption, thead, th, td, tfoot {
 
 table {
     font-family: Ubuntu, sans-serif; 
-    font-size: 24pt; 
+    font-size: 14pt; 
     border: 1px solid black;
     border-collapse: collapse;
 }
 
+table {
+    box-shadow: 8px 8px 5px #628ca6
+}
+
 caption {
     background-color: #7fb9c2; 
-    font-size: 30pt;
+    font-size: 24pt;
     padding: 5px 10px 5px 10px;
 }
 
@@ -37,6 +41,6 @@ td {
 
 tfoot {
     text-align: center; 
-    font-size: 12pt;
+    font-size: 10pt;
     padding: 5px 10px 5px 10px;
 }
