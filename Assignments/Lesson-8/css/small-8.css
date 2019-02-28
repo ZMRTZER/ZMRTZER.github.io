@@ -214,3 +214,35 @@ h3 {
     color: midnightblue;
     text-align: center;
 }
+
+#stormform {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form {
+    background-color: deepskyblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px midnightblue;
+}
+
+input:focus {
+    box-shadow: 0 0 50px midnightblue;
+}
+
+input {
+    background-color: white;
+    color: black;
+}
+
+label {
+    color: black;
+}
+
+#submission {
+    background-color: midnightblue;
+    color: yellow;
+}

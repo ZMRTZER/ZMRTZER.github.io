@@ -137,6 +137,21 @@
         box-shadow: 0 0 50px steelblue;
     }
 
+    #stormform {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    form {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        margin-left: 300px;
+        margin-right: 300px;
+        border: 2px solid black;
+        box-shadow: 15px 15px 30px midnightblue;
+    }
+
     .hero, .summary {
         margin-left: 525px;
         margin-bottom: 200px;

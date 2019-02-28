@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Weathered - Preston, Idaho</title>
+            <meta name="description" content="CIT 230 weather site Preston town page.">
+            <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small-8.css">
+            <link rel="stylesheet" href="css/medium-8.css">
+            <link rel="stylesheet"  href="css/large-8.css">
+        </head>
+        <body>
+            <header id="banner">
+                    <div class="weather">
+                            <img class="weather" srcset="images/weather-small.png 50w,
+                            images/weather-medium.png 75w,
+                            images/weather-large.png 100w"
+                        sizes="(max-width: 600px) 50px,
+                               (max-width: 768px) 75px,
+                                100px" 
+                        src="images/weather-small.png" alt="logo">
+                    </div>
+                <div class="title">
+                    <h1>Weathered.World</h1>
+                </div>
+                <div class="motto"> 
+                    <p>"Never get Tired of Weather"</p>
+                </div>
+            </header>
+            
+            <br>
+            <nav id="mytopnav" class="topnav">  
+                <button onclick="toggleMenu()">&#9776;Menu</button>
+                <a href="Home" title="Home">Home</a>
+                <a href="Assignments/Lesson-7/preston-7.html" title="Preston">Preston</a>
+                <a href="SodaSprings" title="Soda Springs">Soda Springs</a>
+                <a href="FishHaven" title="Fish Haven">Fish Haven</a>
+                <a href="stormcenter.html" title="Storm Center" class="active">Storm Center</a>
+                <a href="Assignments/Lesson-7/gallery-7.html" title="Gallery">Gallery</a>
+            </nav>
+            <main id="stormform">
+                    <form action="thanks.html" target="_blank" method="get">
+                        <P>Full Name:</P>
+                        <input type="text" name="fullname" pattern="[a-zA-z]{5,20}" title="First-Name Last-Name" required autofocus>
+                        <br><br>
+                        <p>Email:</p>
+                        <input type="email" name="email" placeholder="myEmail@gmail.com">
+                        <br><br>
+                        <p>Phone Number:</p>
+                        <input type="tel" name="phonenumber" required>
+                        <br><br>
+                        <p>Zip Code:</p>
+                        <input type="number" id="zip" name="code" required>
+                        <br><br>
+                        <p>Storm Date:</p>
+                        <input type="date" id="date" name="stormdate">
+                        <br><br>
+                        <p>Storm Type:</p>
+                        <input list="stormtypes">
+                        <datalist id="storms">
+                            <option value="Flash Flood"></option>
+                            <option value="Hail"></option>
+                            <option value="Hurricane"></option>
+                            <option value="Thunderstorm"></option>
+                            <option value="Tornado"></option>
+                        </datalist>
+                        <br><br>
+                        <p>Storm Severity <em>Rating (1 to 10)</em>:</p>
+                        <input type="range" id="range" name="severity" min="1" max="10"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="rangevalue">10</span>
+                        <br><br>
+                        <p>Storm Region:</p>
+                        <select name="regions">
+                           <option selected disabled>Select Region...</option>
+                           <option value="preston">Preston</option>
+                           <option value="sodasprings">Soda Springs</option>
+                           <option value="fishhaven">Fish Haven</option>
+                        </select>
+                        <br><br>
+                        <p>User In-Danger <em>(Choose One)</em>:</p>
+                        <div>
+                            <input type="radio" id="dangerone" name="danger" value="yes">
+                            <label for="danger1">Yes</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="dangertwo" name="danger" value="no">
+                            <label for="danger2">No</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="dangerthree" name="danger" value="maybe">
+                            <label for="danger3">Maybe</label>
+                        </div>
+                        <br><br>
+                        <p>Additional Information or Comments:</p>
+                        <textarea name="comment" rows="10" cols="40"></textarea><br>
+                        <br><br>
+                        <input type="submit" id="submission" name="submitbutton" value="Form Submission">
+                    </form>
+                </main>
+            
+                <br>
+            <footer id="contact">
+                <h3>Contact Information</h3>
+                <p><em>Weathered</em></p>
+                <p>weatheredworld&commat;tws.com</p>
+                <p>(999)-999-9999</p>
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <picture>
+                    <source srcset="images/map-medium.png" media="(min-width: 600px) and (max-width: 1023px)">
+                    <source srcset="images/map-large.png" media="(min-width: 1024px)">
+                    <img class="map" srcset="images/map-small.png 110w,
+                                             images/map-medium.png 320w,
+                                             images/map-large.png 430w"
+                                     sizes="(max-width: 600px) 100px,
+                                            (max-width: 768px) 300px,
+                                            400px"
+                    src="images/map-small.png" alt="map image">
+                </picture>
+            </footer>
+            <footer>
+                <p>&copy;2019 Weathered | Attributions? | Braden Hamilton</p>
+                <p class="week" id="day"></p><p class="date" id="datetime"></p>
+            </footer>
+            <script src="script/hamburger.js"></script>
+            <script src="script/currentdate.js"></script>  
+            <script src="script/windchill.js"></script>
+        </body>
+    </html>

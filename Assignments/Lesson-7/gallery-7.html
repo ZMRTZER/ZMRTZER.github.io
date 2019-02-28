@@ -30,66 +30,40 @@
                     </div>
                 </header>
             <br>
-           <nav id="navigation">  
-                <ul id="mytopnav" class="topnav">
-                    <li><button onclick="toggleMenu()">&#9776;Menu</button></li>
-                    <li><a href="Home" title="Home">Home</a></li>
-                    <li><a href="preston-7.html" title="Preston" class="active">Preston</a></li>
-                    <li><a href="SodaSprings" title="Soda Springs">Soda Springs</a></li>
-                    <li><a href="FishHaven" title="Fish Haven">Fish Haven</a></li>
-                    <li><a href="StormCenter" title="Storm Center">Storm Center</a></li>
-                    <li class="active"><a href="gallery-7.html" title="Gallery">Gallery</a></li>
-                </ul>
+           <nav id="mytopnav" class="topnav">  
+                <button onclick="toggleMenu()">&#9776;Menu</button>
+                <a href="Home" title="Home">Home</a>
+                <a href="preston-7.html" title="Preston">Preston</a>
+                <a href="SodaSprings" title="Soda Springs">Soda Springs</a>
+                <a href="FishHaven" title="Fish Haven">Fish Haven</a>
+                <a href="StormCenter" title="Storm Center">Storm Center</a>
+                <a href="gallery-7.html" title="Gallery" class="active">Gallery</a>
             </nav>
             <main id="gallery">
-                    <div class="cloudy"><img srcset="images/weather-1small.jpg 300w,
-                                    images/weather-1mid.jpg 360w,
-                                    images/weather-1.jpg 500w"
-                            sizes="(max-width: 600px) 300px,
-                                    (max-width: 768px) 360px,
-                                    500px"
-                            src="images/weather-1.jpg" alt="Cloudy Sky"></div>
-                    <div class="one"><p>Cloudy</p></div>
-                    <div class="sunset"><img srcset="images/weather-2small.jpg 300w,
-                                    images/weather-2mid.jpg 360w,
-                                    images/weather-2.jpg 500w"
-                            sizes="(max-width: 600px) 300px,
-                                    (max-width: 768px) 360px,
-                                    500px"
-                            src="images/weather-2.jpg" alt="Sunset"></div>
-                    <div class="two"><p>Sunset</p></div>
-                    <div class="lightning"><img srcset="images/weather-3small.jpg 300w,
-                                    images/weather-3mid.jpg 360w,
-                                    images/weather-3.jpg 500w"
-                            sizes="(max-width: 600px) 300px,
-                                    (max-width: 768px) 360px,
-                                    500px"
-                            src="images/weather-3.jpg" alt="Lightning"></div>
-                    <div class="3"><p>Lightning</p></div>
-                    <div class="glacier"><img srcset="images/weather-4small.jpg 300w,
-                                    images/weather-4mid.jpg 360w,
-                                    images/weather-4.jpg 500w"
-                            sizes="(max-width: 600px) 300px,
-                                    (max-width: 768px) 360px,
-                                    500px"
-                            src="images/weather-4.jpg" alt="Glacier"></div>
-                    <div class="four"><p>Glacier</p></div>
-                    <div class="storm"><img srcset="images/weather-5small.jpg 300w,
-                                    images/weather-5mid.jpg 360w,
-                                    images/weather-5.jpg 500w"
-                            sizes="(max-width: 600px) 300px,
-                                    (max-width: 768px) 360px,
-                                    500px"
-                            src="images/weather-5.jpg" alt="Storm"></div>
-                   <div class="five"><p>Storm</p></div>
-                    <div class="sunny"><img srcset="images/weather-6small.jpg 300w,
-                                    images/weather-6mid.jpg 360w,
-                                    images/weather-6.jpg 500w"
-                            sizes="(max-width: 600px) 300px,
-                                    (max-width: 768px) 360px,
-                                    500px"
-                            src="images/weather-6.jpg" alt="Sunny"></div>
-                <div class="six"><p>Sunny</p></div>
+                    <figure>
+                            <img src="images/weather-1.jpg" alt="Cloudy">
+                            <figcaption>Cloudy</figcaption>
+                    </figure>
+                    <figure>
+                            <img src="images/weather-2.jpg" alt="Sunset">
+                            <figcaption>Sunset</figcaption>
+                    </figure>
+                    <figure>
+                            <img src="images/weather-3.jpg" alt="Lightning">
+                            <figcaption>Lightning</figcaption>
+                    </figure>
+                    <figure>
+                                <img src="images/weather-4.jpg" alt="Glacier">
+                                <figcaption>Glacier</figcaption>
+                    </figure>
+                    <figure>
+                                <img src="images/weather-5.jpg" alt="Storm">
+                                <figcaption>Storm</figcaption>
+                    </figure>
+                    <figure>
+                                <img src="images/weather-6.jpg" alt="Sunny">
+                                <figcaption>Sunny</figcaption>
+                    </figure>
             </main>
             <footer id="contact">
                 <h3>Contact Information</h3>
