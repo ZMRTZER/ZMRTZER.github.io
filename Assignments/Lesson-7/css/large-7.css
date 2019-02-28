@@ -124,6 +124,10 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    #gallery figure img {
+        margin-bottom: -5px;
+    }
+
     #gallery {
         margin-top: 100px;
         margin-bottom: 150px;
