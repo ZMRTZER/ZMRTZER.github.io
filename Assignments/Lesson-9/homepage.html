@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Weathered - Home</title>
+            <meta name="description" content="CIT 230 weather site Home page.">
+            <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small-8.css">
+            <link rel="stylesheet" href="css/medium-8.css">
+            <link rel="stylesheet"  href="css/large-8.css">
+        </head>
+        <body>
+            <header id="banner">
+                    <div class="weather">
+                            <img class="weather" srcset="images/weather-small.png 50w,
+                            images/weather-medium.png 75w,
+                            images/weather-large.png 100w"
+                        sizes="(max-width: 600px) 50px,
+                               (max-width: 768px) 75px,
+                                100px" 
+                        src="images/weather-small.png" alt="logo">
+                    </div>
+                <div class="title">
+                    <h1>Weathered.World</h1>
+                </div>
+                <div class="motto"> 
+                    <p>"Never get Tired of Weather"</p>
+                </div>
+            </header>
+            
+            <br>
+            <nav id="mytopnav" class="topnav">  
+                <button onclick="toggleMenu()">&#9776;Menu</button>
+                <a href="homepage.html" title="Home" class="active">Home</a>
+                <a href="Assignments/Lesson-7/preston-7.html" title="Preston">Preston</a>
+                <a href="SodaSprings" title="Soda Springs">Soda Springs</a>
+                <a href="FishHaven" title="Fish Haven">Fish Haven</a>
+                <a href="Assignments/Lesson-8/stormcenter.html" title="Storm Center">Storm Center</a>
+                <a href="Assignments/Lesson-7/gallery-7.html" title="Gallery">Gallery</a>
+            </nav>
+            <footer id="contact">
+                <h3>Contact Information</h3>
+                <p><em>Weathered</em></p>
+                <p>weatheredworld&commat;tws.com</p>
+                <p>(999)-999-9999</p>
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <picture>
+                    <source srcset="images/map-medium.png" media="(min-width: 600px) and (max-width: 1023px)">
+                    <source srcset="images/map-large.png" media="(min-width: 1024px)">
+                    <img class="map" srcset="images/map-small.png 110w,
+                                             images/map-medium.png 320w,
+                                             images/map-large.png 430w"
+                                     sizes="(max-width: 600px) 100px,
+                                            (max-width: 768px) 300px,
+                                            400px"
+                    src="images/map-small.png" alt="map image">
+                </picture>
+            </footer>
+            <footer>
+                <p>&copy;2019 Weathered | Attributions? | Braden Hamilton</p>
+                <p class="week" id="day"></p><p class="date" id="datetime"></p>
+            </footer>
+            <script src="script/hamburger.js"></script>
+            <script src="script/currentdate.js"></script>  
+        </body>
+    </html>
