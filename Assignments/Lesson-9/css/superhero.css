@@ -19,6 +19,7 @@ html {
   h1, h2 {
   
     font-family: 'Faster One', cursive;
+    color: firebrick;
   
   }
   
@@ -45,6 +46,8 @@ html {
     font-weight: bold;
   
     text-align: center;
+
+    font-style: italic;
   
   }
   
@@ -76,6 +79,10 @@ html {
   
     margin-top: 0;
   
+  }
+
+  section li {
+    font-weight: bold;
   }
   
   
