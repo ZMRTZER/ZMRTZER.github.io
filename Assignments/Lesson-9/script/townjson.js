@@ -1,43 +1,52 @@
-var figcaption = document.querySelector("figcaption");
+var header = document.querySelector("header")
 
-var requestURL = "https://ZMRTZER.github.io/Assignments/Lesson-9/json/homepage.json";
-
+var requestURL = "https://zmrtzer.github.io/Assignments/Lesson-9/json/homepage.json";
 var request = new XMLHttpRequest();
 
-request.open('GET', requestURL);
+request.open("GET", requestURL);
 
 request.responseType = "json";
 
 request.send();
 
-
 request.onload = function() {
 
-    var townInfo = request.response;
+  var townInfo = request.response;
+
+  showInfo(townInfo);
+
+}
+
+function showInfo(jsonObj) {
+
+  var towns = jsonObj["towns"];
+
+  for(var i = 0; i< towns.length; i++) {
+    
+    var myArticle = document.createElement("article");
+    var myName = document.createElement("h5");
+    var myMotto = document.createElement("p");
+    var myYear = document.createElement("p");
+    var myPopulation = document.createElement("p");
+    var myRain = document.createElement("p");
+    var myEvent = document.createElement("p");
   
-    populateFigcaption(townInfo);
+    myName.textcontent = towns[i].name;
+    myMotto.textContent = towns[i].motto;
+    myYear.textContent = "Year Founded: " + towns[i].yearFounded;
+    myPopulation.textContent = "" + towns[i].currentPopulation;
+    myRain.textContent = "" + towns[i].averageRainfall;
+    myEvent.textContent = "" + towns[i].events;
   
-    showInfo(townInfo);
-  
+  myArticle.appendChild(myName);
+  myArticle.appendChild(myMotto);
+  myArticle.appendChild(myYear);
+  myArticle.appendChild(myPopulation);
+  myArticle.appendChild(myRain);
+  myArticle.appendChild(myEvent);
   }
+  
 
 
-  function populateFigcaption(jsonObj) {
 
-    var myH1 = document.createElement("h1");
-  
-    myH1.textContent = jsonObj["name"];
-  
-    figcaption.appendChild(myH1);
-  
-  
-  
-    var myPara = document.createElement('em');
-  
-    myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
-  
-    header.appendChild(myPara);
-  
-  
-  
-  }
+}
