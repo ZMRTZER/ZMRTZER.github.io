@@ -1,6 +1,6 @@
-var header = document.querySelector("header")
+var header = document.querySelector("main.section")
 
-var requestURL = "https://zmrtzer.github.io/Assignments/Lesson-9/json/homepage.json";
+var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 var request = new XMLHttpRequest();
 
 request.open("GET", requestURL);
