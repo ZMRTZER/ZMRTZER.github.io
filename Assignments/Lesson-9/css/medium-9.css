@@ -114,6 +114,14 @@
         box-shadow: 10px 10px 20px midnightblue;
     }
 
+    .home {
+        font-size: 3vw;
+    }
+
+    #towninfo {
+        grid-template-columns: 1fr 1fr 1fr;   
+    }
+
     footer {
         font-size: 12pt;
     }
