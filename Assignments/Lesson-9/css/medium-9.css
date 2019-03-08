@@ -119,7 +119,23 @@
     }
 
     #towninfo {
-        grid-template-columns: 1fr 1fr 1fr;   
+        display: flex;
+        flex-flow: row wrap; 
+    }
+
+    #towninfo div {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    #towninfo h5 {
+        font-size: 18pt;
+        line-height: 30px;
+    }
+
+    #towninfo p {
+        font-size: 14pt;
+        line-height: 25px;
     }
 
     footer {

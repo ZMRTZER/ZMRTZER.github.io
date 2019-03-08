@@ -253,12 +253,9 @@ label {
     padding-bottom: 100px;
 }
 
-
 #towninfo {
     display: grid;
     grid-gap: 30px;
-    max-width: 50px;
-    
     line-height: 15px;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -266,8 +263,22 @@ label {
 
 #towninfo div {
     text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
     background-color: midnightblue;
     padding-top: 10px;
+}
+
+#towninfo div:nth-of-type(1) {
+    order: 3;
+}
+
+#towninfo div:nth-of-type(2) {
+    order: 1;
+}
+
+#towninfo div:nth-of-type(3) {
+    order: 2;
 }
 
 #towninfo h5 {
@@ -278,6 +289,10 @@ label {
 #towninfo em {
     text-align: center;
     font-size: 10pt;
+}
+
+#towninfo img {
+    width: 300px;
 }
 
 .home {

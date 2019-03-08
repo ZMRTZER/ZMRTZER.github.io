@@ -161,26 +161,26 @@
     }
 
     #towninfo {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 3%;
         max-width: 1000px;
-        margin-left: 300px;
+        margin-left: 360px;
         margin-bottom: 200px;
     }
 
     #towninfo div {
         grid-gap: 10px;
-        
     }
 
     #towninfo h5 {
         padding-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 20pt;
     }
 
     #towninfo em {
-        font-size: 12pt;
+        font-size: 10pt;
     }
     
     #towninfo p {
