@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+em {
+    color: yellow;
+}
+
+#banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#banner {
+    background-color: deepskyblue;
+}
+
+.title {
+    color: yellow;
+    font-size: 10pt;
+    font-family: "Arial Black", sans-serif;
+}
+
+.motto {
+    font-size: 8pt;
+    font-family: "Arial Black", sans-serif;
+    margin-left: 50px;
+    margin-top: -16px;
+}
+
+.weather {
+    margin-top: 7px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav :not(:first-child) {
+        display: none;
+    }
+    
+
+#mytopnav {
+    margin-top: -12px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: slateblue;
+    font-size: 16pt;
+    text-align: center;
+    font-family: 'ABeeZee';
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    padding: .8rem 2%;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    padding: .8rem 2%;
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav a.active {
+    background-color: steelblue;
+    color: white;
+}
+}
+
+a:link {
+color: yellow;
+}
+
+a:visited {
+    color: midnightblue;
+}
+
+a:focus {
+    color: deepskyblue;
+}
+
+a:hover {
+color: white;
+}
+
+a:active {
+    color: slateblue;
+}
+
+#town {
+    text-align: center;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+}
+
+.summary {
+    position: absolute;
+    background-color: rgb(0, 0, 255, 0.5);
+    padding-left: 5px;
+}
+
+.weathersummary {
+    color: yellow;
+    font-size: 12pt;
+    font-family: Arial, Bold, sans-serif;   
+}
+
+input {
+    background-color: transparent;
+    color: yellow;
+}
+
+.chill button{
+    background-color: transparent;
+    padding: .8px 2%;
+    color: white;
+}
+
+#outputdiv {
+    color: yellow;
+}
+
+.hero {
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 600px) {
+    #forecast, .forecast, .background, .monday, .tuesday, .wednesday, .thursday, .friday {
+        display: none;
+    }
+    .hero {
+        width: 100%;
+        height: 165px;
+    }
+}
+
+h3 {
+    color: midnightblue;
+    font-size: 12pt;
+    font-family: Arial, Bold, sans-serif;
+}
+
+
+.link a {
+    text-align: center;
+    font-size: 7pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    article {
+        margin-bottom: 50px;
+    }
+
+    .article {
+        text-align: center;
+    }
+
+    #rodeo {
+        background-color: skyblue;
+    }
+
+    footer {
+        text-align: center;
+        background-color: skyblue;
+        font-size: 8pt;
+        color: yellow;
+        font-family: Arial, Bold, sans-serif;
+    }
+
+#gallery {
+    display: grid;
+    padding: 0 2%;
+    grid-template-columns: auto;
+}
+
+#gallery {
+    margin-bottom: 50px;
+}
+
+#gallery figure {
+    margin: 2rem 0;
+    border: 1px solid #aaa;
+}
+
+#gallery figure img {
+    width: 100%;
+}
+
+#gallery figure figcaption {
+    font-size: 16pt;
+    background-color: white;
+    color: midnightblue;
+    text-align: center;
+}
+
+#stormform {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form {
+    background-color: deepskyblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px midnightblue;
+}
+
+input:focus {
+    box-shadow: 0 0 50px midnightblue;
+}
+
+input {
+    background-color: white;
+    color: black;
+}
+
+label {
+    color: black;
+}
+
+#submission {
+    background-color: midnightblue;
+    color: yellow;
+}
+
+#thanks {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#towninfo {
+    display: grid;
+    grid-gap: 30px;
+    line-height: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#towninfo div {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: midnightblue;
+    padding-top: 10px;
+}
+
+#towninfo div:nth-of-type(1) {
+    order: 3;
+}
+
+#towninfo div:nth-of-type(2) {
+    order: 1;
+}
+
+#towninfo div:nth-of-type(3) {
+    order: 2;
+}
+
+#towninfo h5 {
+    text-align: center;
+    font-size: 4vw;
+}
+
+#towninfo em {
+    text-align: center;
+    font-size: 10pt;
+}
+
+#towninfo img {
+    width: 300px;
+}
+
+.home {
+    text-align: center;
+    color: black;
+    font-size: 8vw;
+    font-weight: bold;
+}
+

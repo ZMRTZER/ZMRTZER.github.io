@@ -1,0 +1,205 @@
+@media screen and (min-width: 769px) {
+    
+    body {
+        font-size: 20pt;
+    }
+
+    #banner {
+        flex-flow: column wrap;
+        align-items: center;
+        align-content: center;
+    }
+
+    .weather {
+        margin-right: 425px;
+        
+    }
+
+    .title {
+        font-size: 30pt;
+        margin-top: -180px;
+    }
+
+    .motto {
+        font-size: 20pt;
+        margin-top: -50px;
+        padding-bottom: 5px;
+    }
+
+    nav {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        justify-content: space-around;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    #mytopnav {
+        margin-bottom: 20px;
+        font-size: 28pt;
+        font-family: 'ABeeZee';
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    #town {
+        font-size: 40pt;
+        margin-top: 200px;
+        margin-bottom: 150px;
+    }
+
+    .weathersummary {
+        font-size: 24pt;
+        text-align: left;
+        left: 15px;
+    }
+
+    #forecast {
+        position: absolute;
+        left: 30px;
+    }
+
+    .forecast {
+        color: yellow;
+        font-size: 30pt;
+        font-family: Arial, Bold, sans-serif;
+    }
+
+    h4 {
+        color: yellow;
+        font-size: 25pt;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 30pt;
+    
+    }
+
+    .article {
+        font-size: 40pt;
+        margin-bottom: 50px;
+    }
+
+    .rodeo {
+        display: block;
+        float: right;
+        padding-left: 50px;
+    }
+
+    #rodeo p {
+        line-height: 30px;
+        text-align: justify;
+        margin-left: 50px;
+
+    }
+
+    #rodeo {
+        margin-top: 200px;
+        display: inline-block;
+    }
+
+    .link a {
+        display: block;
+        margin-left: auto;
+        margin-right: 100px;
+        font-size: 20pt;
+    }
+
+    footer {
+        font-size: 18pt;
+    }
+
+    .map {
+        display: inline-block;
+    }
+
+    .date {
+        font-size: 18pt;
+    }
+
+    #gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #gallery {
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+
+    #gallery figure img:hover {
+        box-shadow: 0 0 50px slateblue;
+    }
+
+    #gallery figcaption:hover {
+        box-shadow: 0 0 50px steelblue;
+    }
+
+    #stormform {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    form {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        max-width: 1000px;
+        margin-left: 450px;
+        margin-right: 300px;
+        border: 2px solid black;
+        box-shadow: 15px 15px 30px midnightblue;
+    }
+
+    .homepic {
+        margin-left: 450px;
+    }
+    
+    .home {
+        font-size: 4vw;
+    }
+
+    #towninfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 3%;
+        max-width: 1000px;
+        margin-left: 360px;
+        margin-bottom: 200px;
+    }
+
+    #towninfo div {
+        grid-gap: 10px;
+    }
+
+    #towninfo h5 {
+        padding-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20pt;
+    }
+
+    #towninfo em {
+        font-size: 10pt;
+    }
+    
+    #towninfo p {
+        font-size: 16pt;
+        line-height: 50px;
+    }
+
+    .hero, .summary {
+        margin-left: 525px;
+        margin-bottom: 200px;
+    }
+
+    .background {
+        margin-left: 250px;
+    }
+
+    #forecast, #rodeo {
+        margin-right: 250px;
+        margin-left: 250px;
+    }
+}
