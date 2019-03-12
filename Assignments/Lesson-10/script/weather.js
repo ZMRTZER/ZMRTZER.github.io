@@ -28,7 +28,8 @@ function weatherInput(x) {
         var  weatherData= JSON.parse(weatherRequest.responseText);
         state = weatherData.weather.main;
         temp = weatherData.main.temp;
-        humid = weatherData.
-        rain = weatherData.
-        speed = weatherData.
+        humid = weatherData;
+        rain = weatherData;
+        speed = weatherData;
+    }
 }
