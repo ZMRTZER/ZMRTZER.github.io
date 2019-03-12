@@ -47,15 +47,15 @@
             <article class="summary">
                     <h3 class="weathersummary">Weather Summary</h3>
                     
-                    <p>Currently: <em>Sunny</em></p>
+                    <p>Currently: <em id="current-state">Sunny</em></p>
                     <br>
-                    <p>Temperature: <input type="text" id="temperature" size="2">&deg;F</p>
+                    <p>Temperature: <em id="temperature"></em>&deg;F</p>
                     <br>
-                    <p>Humidity: <em>69</em></p>
+                    <p>Humidity: <em id="humidity">69</em></p>
                     <br>
-                    <p>Precipitation: <em>0 inches</em></p>
+                    <p>Precipitation: <em id="precipitation">0 inches</em></p>
                     <br>
-                    <p>Wind Speed: <input type="text" id="speed" size="2">mph</p>
+                    <p>Wind Speed: <em id="speed"></em>mph</p>
                     
                     <p class="chill" id="wind"><button onclick="doInputOutput()">Wind Chill:</button></p>
                     <div id="outputdiv"></div>
