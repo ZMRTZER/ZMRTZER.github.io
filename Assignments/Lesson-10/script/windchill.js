@@ -1,7 +1,7 @@
 function doInputOutput()
 {
-var tempF= document.getElementById("temperature").value;
-var speed= document.getElementById("speed").value;
+var tempF= parseInt(document.getElementById("temperature").innerHTML);
+var speed= parseInt(document.getElementById("speed").innerHTML);
 var chills= windChill(tempF, speed);
 document.getElementById("outputdiv").innerHTML= chills.toFixed(1) + '&deg';
 }

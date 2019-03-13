@@ -47,15 +47,13 @@
             <article class="summary">
                     <h3 class="weathersummary">Weather Summary</h3>
                     
-                    <p>Currently: <em id="current-state">Sunny</em></p>
+                    <p>Currently: <em id="currentState"></em></p>
                     <br>
-                    <p>Temperature: <em id="temperature"></em>&deg;F</p>
+                    <p>Temperature: <span id="temperature"></span>&deg;F</p>
                     <br>
-                    <p>Humidity: <em id="humidity">69</em></p>
+                    <p>Humidity: <em id="humidity"></em></p>
                     <br>
-                    <p>Precipitation: <em id="precipitation">0 inches</em></p>
-                    <br>
-                    <p>Wind Speed: <em id="speed"></em>mph</p>
+                    <p>Wind Speed: <span id="speed"></span>mph</p>
                     
                     <p class="chill" id="wind"><button onclick="doInputOutput()">Wind Chill:</button></p>
                     <div id="outputdiv"></div>
@@ -163,5 +161,6 @@
             <script src="script/hamburger.js"></script>
             <script src="script/currentdate.js"></script>  
             <script src="script/windchill.js"></script>
+            <script src="script/preston.js"></script>
         </body>
     </html>

@@ -3,8 +3,8 @@
 // URL = https://api.openweathermap.org/data/2.5/weather?id=
 
 
-var main = document.querySelector("span")
-var apiKey = "&APPID=a25b3602ce57e18b11c4ed2de661001a";
+
+var apiKey = "&appid=a25b3602ce57e18b11c4ed2de661001a";
 var cityCodes = {
     "Preston" : "5604473",
     "Fish Haven" : "5585010",
@@ -13,7 +13,7 @@ var cityCodes = {
 
 function setup() {
     var span = document.getElementById("current-temp");
-    var url = "https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=a25b3602ce57e18b11c4ed2de661001a&units=imperial";
+    var url = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a25b3602ce57e18b11c4ed2de661001a&units=imperial";
 
     var weatherRequest = new XMLHttpRequest();
     weatherRequest.open("GET", url, true);
@@ -23,5 +23,4 @@ function setup() {
         span.textContent = weatherData.main.temp;
         console.log(weatherData);
     }
-    main.appendChild();
 }
