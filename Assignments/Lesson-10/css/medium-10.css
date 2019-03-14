@@ -1,4 +1,5 @@
 @media only screen and (min-width: 768px) {
+
     body {
         font-size: 15pt;
     }
@@ -13,26 +14,14 @@
         margin-top: -30px;
     }
 
+    @media only screen and (max-width: 768px) {
+        .topnav :not(:first-child) {
+            display: none;
+        }
+    }
+
     .weather {
         margin-top: 20px;
-    }
-
-    nav {
-        flex-flow: row wrap;
-        justify-content: space-between;
-        justify-content: space-around;
-    }
-
-    nav button {
-        display: none;
-    }
-
-    #mytopnav {
-        margin-bottom: 20px;
-        font-size: 16pt;
-        font-family: 'ABeeZee';
-        margin-left: 50px;
-        margin-right: 50px;
     }
 
     #town {
@@ -46,14 +35,36 @@
         margin-bottom: 15px;
     }
 
-    .hero, .summary {
-        margin-left: 35px;
+    #summaryposition {
+        margin: auto;
+        width: 68%;
     }
 
-    @media screen and (max-width: 768px) {
-        #forecast, .forecast, .background, .monday, .tuesday, .wednesday, .thursday, .friday {
-            display: none;
-        }
+    #forecast {
+        position: absolute;
+    }
+
+    .forecast {
+        color: yellow;
+        font-size: 30pt;
+        font-family: Arial, Bold, sans-serif;
+        margin-left: 30px;
+    }
+
+
+    #forecastflex {
+        font-size: 12pt;
+    }
+    
+    #forecastflex :not(first-child) {
+        display: flex;
+        margin: auto;
+    }
+
+    .background {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     h3 {
@@ -66,32 +77,14 @@
         margin-bottom: 50px;
     }
 
-    .rodeo {
-        display: block;
-        float: right;
-        padding-left: 50px;
-    }
-
     #rodeo p {
         line-height: 26px;
         text-align: left;
         margin-left: 30px;
-
-    }
-
-    #rodeo {
-        margin-top: 100px;
-        display: inline-block;
-    }
-
-    #rodeo img {
-        position: relative;
-        margin-right: 30px;
+    
     }
 
     .link a {
-        display: block;
-        margin-left: auto;
         font-size: 16pt;
     }
 

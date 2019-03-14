@@ -44,6 +44,7 @@
             <main id="town">
                 <h1>Preston</h1>
             </main>
+            <div id="summaryposition">
             <article class="summary">
                     <h3 class="weathersummary">Weather Summary</h3>
                     
@@ -64,49 +65,56 @@
                                       images/hero-medium.jpg 700w,
                                       images/hero-image.jpg 850w"
                               sizes="(max-width: 600px) 300px,
-                                     (max-width: 768px) 700px,
-                                      800px" 
+                                     (max-width: 768px) 550px,
+                                      700px" 
                               src="images/hero-small.jpg" alt="hero image">
+            </div>
+            <div id="forecastposition">
             <article id="forecast">
                     <h3 class="forecast">Five Day Forecast</h3>
                 <br>
+                <div id="forecastflex">
                 <section class="monday">
-                    <h4>Monday</h4>
-                    <p>High: <em>33</em></p>
-                    <p>Low: <em>23</em></p>
-                    <p><em>Cloudy</em></p>
+                    <h4 id="day1"></h4>
+                    <img id="icon1">
+                    <p id="temp1"></p>
                 </section>
                 <br>
                 <section class="tuesday">
-                    <h4>Tuesday</h4>
-                    <p>High: <em>34</em></p>
-                    <p>Low: <em>33</em></p>
-                    <p><em>Snow</em></p>
+                    <h4 id="day2"></h4>
+                    <img id="icon2">
+                    <p id="temp2"></p>
                 </section>
                 <br>
                 <section class="wednesday">
-                    <h4>Wednesday</h4>
-                    <p>High: <em>38</em></p>
-                    <p>Low: <em>36</em></p>
-                    <p><em>Snow</em></p>
+                    <h4 id="day3"></h4>
+                    <img id="icon3">
+                    <p id="temp3"></p>
                 </section>
                 <br>
                 <section class="thursday">
-                    <h4>Thursday</h4>
-                    <p>High: <em>36</em></p>
-                    <p>Low: <em>20</em></p>
-                    <p><em>Snow</em></p>
+                    <h4 id="day4"></h4>
+                    <img id="icon4">
+                    <p id="temp4"></p>
                 </section>
                 <br>
                 <section class="friday">
-                    <h4>Friday</h4>
-                    <p>High: <em>30</em></p>
-                    <p>Low: <em>14</em></p>
-                    <p><em>Mildly Cloudy</em></p>
+                    <h4 id="day5"></h4>
+                    <img id="icon5">
+                    <p id="temp5"></p>
                 </section>
+            </div>
                 </article>
-                    <img class="background" src="images/background.jpg" alt="cabin background">
-                <br>
+                <img class="background" srcset="images/background-medium.jpg 700w,
+                                                images/background.jpg 1000w"
+                                        sizes="(max-width: 768px) 700px,
+                                               1000px"
+                 src="images/background.jpg" alt="cabin background">
+            </div>
+            
+                    
+               
+                    <br>
                 <article id="rodeo">
                     
                     <h3 class="article">Preston Night Rodeo</h3>
@@ -161,6 +169,7 @@
             <script src="script/hamburger.js"></script>
             <script src="script/currentdate.js"></script>  
             <script src="script/windchill.js"></script>
-            <script src="script/preston.js"></script>
+            <script src="script/prestonweather.js"></script>
+            <script src="script/prestonforecast.js"></script>
         </body>
     </html>

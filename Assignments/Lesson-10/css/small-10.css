@@ -51,11 +51,11 @@ nav {
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .topnav :not(:first-child) {
         display: none;
     }
-    
+}
 
 #mytopnav {
     margin-top: -12px;
@@ -89,7 +89,7 @@ nav a.active {
     background-color: steelblue;
     color: white;
 }
-}
+
 
 a:link {
 color: yellow;
@@ -122,6 +122,7 @@ a:active {
     position: absolute;
     background-color: rgb(0, 0, 255, 0.5);
     padding-left: 5px;
+    padding-right: 5px;
 }
 
 .weathersummary {
@@ -147,7 +148,11 @@ input {
 
 .hero {
     margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 @media screen and (max-width: 600px) {
     #forecast, .forecast, .background, .monday, .tuesday, .wednesday, .thursday, .friday {
         display: none;
@@ -171,25 +176,37 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-    article {
-        margin-bottom: 50px;
-    }
+article {
+    margin-bottom: 50px;
+}
 
-    .article {
-        text-align: center;
-    }
+.article {
+    text-align: center;
+}
 
-    #rodeo {
-        background-color: skyblue;
-    }
+#rodeo {
+    background-color: skyblue;
+}
 
-    footer {
-        text-align: center;
-        background-color: skyblue;
-        font-size: 8pt;
-        color: yellow;
-        font-family: Arial, Bold, sans-serif;
-    }
+.rodeo {
+    display: block;
+    float: right;
+}
+
+
+.link a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: skyblue;
+    font-size: 8pt;
+    color: yellow;
+    font-family: Arial, Bold, sans-serif;
+}
 
 #gallery {
     display: grid;
@@ -265,8 +282,9 @@ label {
 
 #towninfo div {
     text-align: center;
-    margin-left: 10px;
-    margin-right: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-color: midnightblue;
     padding-top: 10px;
 }
@@ -302,5 +320,11 @@ label {
     color: black;
     font-size: 8vw;
     font-weight: bold;
+}
+
+.homepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
