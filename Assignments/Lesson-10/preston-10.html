@@ -44,6 +44,13 @@
             <main id="town">
                 <h1>Preston</h1>
             </main>
+            <div class="eventbox">
+                    <h6 class="eventHead">Upcoming Events</h6>
+                    <section id="events">
+    
+                    </section>
+                </div>
+                <br>
             <div id="summaryposition">
             <article class="summary">
                     <h3 class="weathersummary">Weather Summary</h3>
@@ -111,24 +118,16 @@
                                                1000px"
                  src="images/background.jpg" alt="cabin background">
             </div>
-            
-                    
-               
                     <br>
-                <article id="rodeo">
-                    
+                <article id="rodeo">  
                     <h3 class="article">Preston Night Rodeo</h3>
-                    <picture>
-                        <source srcset="images/rodeo-medium.jpg" media="(min-width: 600px) and (max-width: 1023px)">
-                        <source srcset="images/rodeo-large.jpg" media="(min-width: 1024px)">
                         <img class="rodeo" srcset="images/rodeo-small.jpg 320w,
                                                    images/rodeo-medium.jpg 400w,
                                                    images/rodeo-large.jpg 760w"
                                             sizes="(max-width: 600px) 320px,
-                                                   (max-width: 768px) 400px,
+                                                   (max-width: 1023px) 400px,
                                                     500px"
                         src="images/rodeo-small.jpg" alt="article image">
-                    </picture>
                     <p>The 83rd annual celebration of That Famous Preston Night Rodeo begins today, July 26, 2018, and runs through Saturday, July 28.
                         Already, Benson Park is filling with booths full of food, finds and fun. State Street's sidewalk sale has begun and PRCA merchandise is available 
                         at the rodeo grounds.
@@ -143,6 +142,7 @@
                     <p class="link"><a href="http://www.prestonrodeo.com/events.html">Also see: http://www.prestonrodeo.com/events.html for more information</a></p>
                 </article>
                 <br>
+                
             <footer id="contact">
                 <h3>Contact Information</h3>
                 <p><em>Weathered</em></p>
@@ -171,5 +171,6 @@
             <script src="script/windchill.js"></script>
             <script src="script/prestonweather.js"></script>
             <script src="script/prestonforecast.js"></script>
+            <script src="script/prestonevent.js"></script>
         </body>
     </html>
