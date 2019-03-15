@@ -11,6 +11,5 @@ var weatherRequest = new XMLHttpRequest();
         console.log(weatherData);
 
         document.getElementById("current-temp").innerHTML = weatherData.main.temp;
-        
 
     }
