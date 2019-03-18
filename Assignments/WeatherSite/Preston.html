@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Weathered - Preston, Idaho</title>
+            <meta name="description" content="CIT 230 weather site Preston town page.">
+            <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/Small.css">
+            <link rel="stylesheet" href="css/Medium.css">
+            <link rel="stylesheet"  href="css/Large.css">
+        </head>
+        <body>
+            <header id="banner">
+                    <div class="weather">
+                            <img class="weather" srcset="images/weather-small.png 50w,
+                            images/weather-medium.png 75w,
+                            images/weather-large.png 100w"
+                        sizes="(max-width: 600px) 50px,
+                               (max-width: 768px) 75px,
+                                100px" 
+                        src="images/weather-small.png" alt="logo">
+                    </div>
+                <div class="title">
+                    <h1>Weathered.World</h1>
+                </div>
+                <div class="motto"> 
+                    <p>"Never get Tired of Weather"</p>
+                </div>
+            </header>
+            
+            <br>
+            <nav id="mytopnav" class="topnav">  
+                <button onclick="toggleMenu()">&#9776;Menu</button>
+                <a href="Home.html" title="Home">Home</a>
+                <a href="Preston.html" title="Preston" class="active">Preston</a>
+                <a href="SodaSprings.html" title="Soda Springs">Soda Springs</a>
+                <a href="FishHaven.html" title="Fish Haven">Fish Haven</a>
+                <a href="StormCenter.html" title="Storm Center">Storm Center</a>
+                <a href="Gallery.html" title="Gallery">Gallery</a>
+            </nav>
+
+            <main id="town">
+                <h1>Preston</h1>
+            </main>
+            <div class="eventbox">
+                    <h6 class="eventHead">Upcoming Events</h6>
+                    <section id="events">
+    
+                    </section>
+                </div>
+                <br>
+            <div id="summaryposition">
+            <article class="summary">
+                    <h3 class="weathersummary">Weather Summary</h3>
+                    
+                    <p>Currently: <em id="currentState"></em></p>
+                    <br>
+                    <p>Temperature: <span id="temperature"></span>&deg;F</p>
+                    <br>
+                    <p>Humidity: <em id="humidity"></em></p>
+                    <br>
+                    <p>Wind Speed: <span id="speed"></span>mph</p>
+                    
+                    <p class="chill" id="wind"><button onclick="doInputOutput()">Wind Chill:</button></p>
+                    <div id="outputdiv"></div>
+                   
+                    
+            </article>
+            <img class="hero" srcset="images/hero-small.jpg 320w, 
+                                      images/hero-medium.jpg 700w,
+                                      images/hero-image.jpg 850w"
+                              sizes="(max-width: 600px) 300px,
+                                     (max-width: 768px) 550px,
+                                      700px" 
+                              src="images/hero-small.jpg" alt="hero image">
+            </div>
+            <div id="forecastposition">
+            <article id="forecast">
+                    <h3 class="forecast">Five Day Forecast</h3>
+                <br>
+                <div id="forecastflex">
+                <section class="monday">
+                    <h4 id="day1"></h4>
+                    <img id="icon1" src="script/prestonforecast.js" alt="weather icon">
+                    <p id="temp1"></p>
+                </section>
+                <br>
+                <section class="tuesday">
+                    <h4 id="day2"></h4>
+                    <img id="icon2" src="script/prestonforecast.js" alt= "weather icon">
+                    <p id="temp2"></p>
+                </section>
+                <br>
+                <section class="wednesday">
+                    <h4 id="day3"></h4>
+                    <img id="icon3" src="script/prestonforecast.js" alt= "weather icon">
+                    <p id="temp3"></p>
+                </section>
+                <br>
+                <section class="thursday">
+                    <h4 id="day4"></h4>
+                    <img id="icon4" src="script/prestonforecast.js" alt= "weather icon">
+                    <p id="temp4"></p>
+                </section>
+                <br>
+                <section class="friday">
+                    <h4 id="day5"></h4>
+                    <img id="icon5" src="script/prestonforecast.js" alt= "weather icon">
+                    <p id="temp5"></p>
+                </section>
+            </div>
+                </article>
+                <img class="background" srcset="images/background-medium.jpg 700w,
+                                                images/background.jpg 1000w"
+                                        sizes="(max-width: 768px) 700px,
+                                               1000px"
+                 src="images/background.jpg" alt="cabin background">
+            </div>
+                    <br>
+                <article id="rodeo">  
+                    <h3 class="article">Preston Night Rodeo</h3>
+                        <img class="rodeo" srcset="images/rodeo-small.jpg 320w,
+                                                   images/rodeo-medium.jpg 400w,
+                                                   images/rodeo-large.jpg 760w"
+                                            sizes="(max-width: 600px) 320px,
+                                                   (max-width: 1023px) 400px,
+                                                    500px"
+                        src="images/rodeo-small.jpg" alt="article image">
+                    <p>The 83rd annual celebration of That Famous Preston Night Rodeo begins today, July 26, 2018, and runs through Saturday, July 28.
+                        Already, Benson Park is filling with booths full of food, finds and fun. State Street's sidewalk sale has begun and PRCA merchandise is available 
+                        at the rodeo grounds.
+                    </p>
+                    <p>The parade, which circles from First North south on State Street, then back north again at Second South on First East to Second North, begins at 6:30 p.m.
+                             The rodeo starts at 8 p.m. Few there will be that will find tickets at this late date, although there are a few individuals seats scattered throughout the arena.
+                              The Kiwanis and Lions clubs will fire up their grills so fans can enjoy their traditional rodeo burgers. 
+                            The clubs use funds raised from the sales at their food stands to support community projects.
+                    <a href="https://www.hjnews.com/preston/news/that-famous-preston-night-rodeo-days-are-here/article_2f623382-910b-11e8-a4b9-7be4711b111c.html">Read More...</a>
+                    </p>
+                    <br>      
+                    <p class="link"><a href="http://www.prestonrodeo.com/events.html">Also see: http://www.prestonrodeo.com/events.html for more information</a></p>
+                </article>
+                <br>
+                
+            <footer id="contact">
+                <h3>Contact Information</h3>
+                <p><em>Weathered</em></p>
+                <p>weatheredworld&commat;tws.com</p>
+                <p>(999)-999-9999</p>
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <picture>
+                    <source srcset="images/map-medium.png" media="(min-width: 600px) and (max-width: 1023px)">
+                    <source srcset="images/map-large.png" media="(min-width: 1024px)">
+                    <img class="map" srcset="images/map-small.png 110w,
+                                             images/map-medium.png 320w,
+                                             images/map-large.png 430w"
+                                     sizes="(max-width: 600px) 100px,
+                                            (max-width: 768px) 300px,
+                                            400px"
+                    src="images/map-small.png" alt="map image">
+                </picture>
+            </footer>
+            <footer>
+                <p>&copy;2019 Weathered | Attributions? | Braden Hamilton</p>
+                <p class="week" id="day"></p><p class="date" id="datetime"></p>
+            </footer>
+            <script src="script/hamburger.js"></script>
+            <script src="script/currentdate.js"></script>  
+            <script src="script/windchill.js"></script>
+            <script src="script/prestonweather.js"></script>
+            <script src="script/prestonforecast.js"></script>
+            <script src="script/prestonevent.js"></script>
+        </body>
+    </html>
