@@ -3,7 +3,7 @@ function doInputOutput()
 var tempF= parseInt(document.getElementById("temperature").innerHTML);
 var speed= parseInt(document.getElementById("speed").innerHTML);
 var chills= windChill(tempF, speed);
-document.getElementById("outputdiv").innerHTML= chills.toFixed(1) + '&deg';
+document.getElementById("outputdiv").innerHTML = chills.toFixed(0) + '&deg';
 }
 function windChill(tempF, speed)
 {

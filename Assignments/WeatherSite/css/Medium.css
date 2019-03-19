@@ -20,18 +20,18 @@
         }
     }
 
+    #mytopnav {
+        font-size: 25pt;
+    }
+
     .weather {
         margin-top: 20px;
     }
 
     #town {
         font-size: 26pt;
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-
-    .eventHead {
-        font-size: 20pt;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .weathersummary {
@@ -90,6 +90,10 @@
 
     .link a {
         font-size: 16pt;
+    }
+
+    .eventHead {
+        font-size: 20pt;
     }
 
     #gallery {
