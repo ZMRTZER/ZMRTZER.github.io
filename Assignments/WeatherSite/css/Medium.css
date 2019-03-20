@@ -1,153 +1,141 @@
-@media only screen and (min-width: 601px) {
-
+@media only screen and (min-width:601px) {
     body {
-        font-size: 15pt;
+        font-size: 15pt
     }
 
     .title {
-        font-size: 20pt;
+        font-size: 20pt
     }
 
     .motto {
         font-size: 14pt;
         margin-left: 50px;
-        margin-top: -30px;
-    }
-
-    @media only screen and (max-width: 1023px) {
-        .topnav :not(:first-child) {
-            display: none;
-        }
-    }
-
-    #mytopnav {
-        font-size: 25pt;
-    }
-
-    .weather {
-        margin-top: 20px;
-    }
-
-    #town {
-        font-size: 26pt;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .weathersummary {
-        font-size: 20pt;
-        margin-bottom: 15px;
-    }
-
-    #summaryposition {
-        margin: auto;
-        width: 68%;
-    }
-
-    #forecast {
-        position: absolute;
-    }
-
-    .forecast {
-        color: yellow;
-        font-size: 30pt;
-        font-family: Arial, Bold, sans-serif;
-        margin-left: 30px;
-    }
-
-
-    #forecastflex {
-        font-size: 12pt;
-    }
-    
-    #forecastflex :not(first-child) {
-        display: flex;
-        margin: auto;
-    }
-
-    .background {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    h3 {
-        font-size: 30pt;
-        margin-top: 15px;
-    }
-
-    .article {
-        font-size: 30pt;
-        margin-bottom: 50px;
-    }
-
-    #rodeo p {
-        line-height: 26px;
-        text-align: left;
-        margin-left: 30px;
-    
-    }
-
-    .link a {
-        font-size: 16pt;
-    }
-
-    .eventHead {
-        font-size: 20pt;
-    }
-
-    #gallery {
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2%;
-    }
-
-    #gallery {
-        margin-top: 50px;
-        margin-bottom: 100px;
-    }
-
-    #stormform {
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-
-    form {
-        box-shadow: 10px 10px 20px midnightblue;
-    }
-
-    .home {
-        font-size: 3vw;
-    }
-
-    #towninfo {
-        display: flex;
-        flex-flow: row wrap; 
-    }
-
-    #towninfo div {
-        margin-top: 20px;
-        margin-left: 50px;
-    }
-
-    #towninfo h5 {
-        font-size: 18pt;
-        line-height: 30px;
-    }
-
-    #towninfo p {
-        font-size: 14pt;
-        line-height: 25px;
-    }
-
-    footer {
-        font-size: 12pt;
-    }
-
-    .map {
-        display: inline-block;
-    }
-
-    .date {
-        font-size: 12pt;
+        margin-top: -30px
+    }@    media only screen and (max-width:1023px) {
+        .topnav: not(:first-child){display:none
     }
 }
+
+#mytopnav {
+    font-size: 25pt
+}
+
+.weather {
+    margin-top: 20px
+}
+
+#town {
+    font-size: 26pt;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.weathersummary {
+    font-size: 20pt;
+    margin-bottom: 15px
+}
+
+#summaryposition {
+    margin: auto;
+    width: 68%
+}
+
+#forecast {
+    position: absolute
+}
+
+.forecast {
+    color: #ff0;
+    font-size: 30pt;
+    font-family: Arial,Bold,sans-serif;
+    margin-left: 30px
+}
+
+#forecastflex,footer {
+    font-size: 12pt
+}
+
+#forecastflex :not(first-child) {
+    display: flex;
+    margin: auto
+}
+
+.background {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.article,h3 {
+    font-size: 30pt
+}
+
+h3 {
+    margin-top: 15px
+}
+
+.article {
+    margin-bottom: 50px
+}
+
+#rodeo p {
+    line-height: 26px;
+    text-align: left;
+    margin-left: 30px
+}
+
+.link a {
+    font-size: 16pt
+}
+
+.eventHead {
+    font-size: 20pt
+}
+
+#gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+    margin-top: 50px;
+    margin-bottom: 100px
+}
+
+#stormform {
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+form {
+    box-shadow: 10px 10px 20px #191970
+}
+
+.home {
+    font-size: 3vw
+}
+
+#towninfo {
+    display: flex;
+    flex-flow: row wrap
+}
+
+#towninfo div {
+    margin-top: 20px;
+    margin-left: 50px
+}
+
+#towninfo h5 {
+    font-size: 18pt;
+    line-height: 30px
+}
+
+#towninfo p {
+    font-size: 14pt;
+    line-height: 25px
+}
+
+.map {
+    display: inline-block
+}
+
+.date {
+    font-size: 12pt
+}}
