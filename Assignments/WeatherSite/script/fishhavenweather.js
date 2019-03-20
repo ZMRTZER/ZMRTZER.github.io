@@ -15,6 +15,10 @@ var weatherRequest = new XMLHttpRequest();
         document.getElementById("temperature").innerHTML = weatherData.main.temp;
         document.getElementById("humidity").innerHTML = weatherData.main.humidity;
         document.getElementById("speed").innerHTML = weatherData.wind.speed;
+
+        var windChill = 35.74 + 0.6215 * weatherData.main.temp - 35.75 * Math.pow(weatherData.wind.speed, 0.16) + 0.4275 * weatherData.main.temp * Math.pow(weatherData.wind.speed, 0.16);
+        windChill = Math.round(windChill);
+        document.getElementById("wind").innerHTML = windChill;
     }
 
 

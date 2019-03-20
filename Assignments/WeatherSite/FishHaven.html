@@ -47,14 +47,13 @@
                     <h3 class="weathersummary">Weather Summary</h3>
                     <p>Currently: <em id="currentState"></em></p>
                     <br>
-                    <p>Temperature: <span id="temperature"></span>&deg;F</p>
+                    <p>Temperature: <span id="temperature"></span><em>&deg;F</em></p>
                     <br>
                     <p>Humidity: <em id="humidity"></em></p>
                     <br>
-                    <p>Wind Speed: <span id="speed"></span>mph</p>
-                    
-                    <p class="chill" id="wind"><button onclick="doInputOutput()">Wind Chill:</button></p>
-                    <div id="outputdiv"></div> 
+                    <p>Wind Speed: <span id="speed"></span><em>mph</em></p>
+                    <br>
+                    <p>Wind Chill: <span class="chill" id="wind"></span></p>
             </article>
             <img class="hero" srcset="images/hero-small.jpg 320w, 
                                       images/hero-medium.jpg 700w,
@@ -153,12 +152,11 @@
                 </picture>
             </footer>
             <footer>
-                <p>&copy;2019 Weathered | Attributions? | Braden Hamilton</p>
+                <p>&copy;2019 Weathered | <a href= "https://www.byui.edu">https://www.byui.edu</a> | Braden Hamilton</p>
                 <p class="week" id="day"></p><p class="date" id="datetime"></p>
             </footer>
             <script src="script/hamburger.js"></script>
             <script src="script/currentdate.js"></script>  
-            <script src="script/windchill.js"></script>
             <script src="script/fishhavenweather.js"></script>
             <script src="script/fishhavenforecast.js"></script>
             <script src="script/fishhavenevent.js"></script>

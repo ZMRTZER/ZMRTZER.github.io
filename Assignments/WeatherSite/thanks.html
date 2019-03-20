@@ -3,13 +3,13 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-            <title>Weathered - Home</title>
-            <meta name="description" content="CIT 230 weather site Home page.">
+            <title>Weathered - Thanks</title>
+            <meta name="description" content="CIT 230 weather site Form completion Thanks page.">
             <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
             <link rel="stylesheet" href="css/normalize.css">
-            <link rel="stylesheet" href="css/Small.css">
-            <link rel="stylesheet" href="css/Medium.css">
-            <link rel="stylesheet"  href="css/Large.css">
+            <link rel="stylesheet" href="css/small-8.css">
+            <link rel="stylesheet" href="css/medium-8.css">
+            <link rel="stylesheet"  href="css/large-8.css">
         </head>
         <body>
             <header id="banner">
@@ -28,29 +28,25 @@
                 <div class="motto"> 
                     <p>"Never get Tired of Weather"</p>
                 </div>
-            </header>            
+            </header>
+            
             <br>
             <nav id="mytopnav" class="topnav">  
                 <button onclick="toggleMenu()">&#9776;Menu</button>
-                <a href="Home.html" title="Home" class="active">Home</a>
-                <a href="Preston.html" title="Preston">Preston</a>
-                <a href="SodaSprings.html" title="Soda Springs">Soda Springs</a>
-                <a href="FishHaven.html" title="Fish Haven">Fish Haven</a>
-                <a href="StormCenter.html" title="Storm Center">Storm Center</a>
-                <a href="Gallery.html" title="Gallery">Gallery</a>
+                <a href="Home" title="Home">Home</a>
+                <a href="Assignments/Lesson-7/preston-7.html" title="Preston">Preston</a>
+                <a href="SodaSprings" title="Soda Springs">Soda Springs</a>
+                <a href="FishHaven" title="Fish Haven">Fish Haven</a>
+                <a href="stormcenter.html" title="Storm Center" class="active">Storm Center</a>
+                <a href="Assignments/Lesson-7/gallery-7.html" title="Gallery">Gallery</a>
             </nav>
-            <br>
-            <h1 class="home">Home</h1>
-            <img class="homepic" srcset="images/background-small.jpg 50w,
-                            images/background-image.jpg 75w,
-                            images/background-medium.jpg 100w"
-                        sizes="(max-width: 600px) 31.2px,
-                               (max-width: 768px) 75px,
-                                100px" 
-                        src="images/background-small.jpg" alt="logo">
-            <br>
-            <main id="towninfo">
+            <main id="thanks">
+                    <h2>Thank You</h2>
+                    <p>Your Submission is being Processed</p>
+                    <p><a href="StormCenter.html">Back</a></p>
             </main>
+            
+                <br>
             <footer id="contact">
                 <h3>Contact Information</h3>
                 <p><em>Weathered</em></p>
@@ -74,8 +70,8 @@
                 <p>&copy;2019 Weathered | <a href= "https://www.byui.edu">https://www.byui.edu</a> | Braden Hamilton</p>
                 <p class="week" id="day"></p><p class="date" id="datetime"></p>
             </footer>
-            <script src="script/townjson.js"></script> 
             <script src="script/hamburger.js"></script>
-            <script src="script/currentdate.js"></script> 
+            <script src="script/currentdate.js"></script>  
+            <script src="script/range.js"></script>
         </body>
     </html>

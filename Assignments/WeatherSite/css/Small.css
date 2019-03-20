@@ -132,6 +132,10 @@ a:active {
     font-family: Arial, Bold, sans-serif;   
 }
 
+span {
+    color: yellow;
+}
+
 input {
     background-color: transparent;
     color: yellow;
