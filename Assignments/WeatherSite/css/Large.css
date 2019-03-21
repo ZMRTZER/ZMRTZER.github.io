@@ -90,9 +90,12 @@
     }
 
     .eventbox {
-        margin-left: 375px;
-        margin-right: 375px
+        margin-left: 400px;
+        margin-right: 375px;
+        padding-left: 35px
     }
+
+    
 
     #rodeo,.map {
         display: inline-block

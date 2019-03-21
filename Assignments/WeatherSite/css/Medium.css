@@ -89,7 +89,17 @@ h3 {
 }
 
 .eventHead {
-    font-size: 20pt
+    font-size: 20pt;
+    text-align: justify
+}
+
+#events {
+    text-align: justify;
+}
+
+.eventbox img {
+    position: relative;
+    float: right
 }
 
 #gallery {

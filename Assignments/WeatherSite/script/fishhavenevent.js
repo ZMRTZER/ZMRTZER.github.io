@@ -8,5 +8,25 @@ request.onload = function() {
   var townInfo = request.response;
 
 
- events = document.getElementById("events").innerHTML = townInfo.towns[1].events;
+ events(townInfo);
+
+
+function events(townInfo) {
+  var townEvents = townInfo["towns"];
+  for (var i = 0; i < townEvents.length; i++) {
+    if (townEvents[i].name === "Fish Haven") {
+      var article = document.createElement('article');
+      var list = document.createElement("ul");
+      var eventList = townEvents[i].events;
+
+      for (var x = 0; x < eventList.length; x++){
+        var listItem = document.createElement ("li");
+        listItem.textContent = eventList[x];
+        list.appendChild(listItem);
+      }
+      article.appendChild(list);
+      main.appendChild(article);
+    }
+  }
+}
 }

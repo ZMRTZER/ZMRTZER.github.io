@@ -180,15 +180,26 @@ h3 {
 }
 
 .eventbox {
-    text-align: center;
     background-color: #6a5acd;
     padding-bottom: 10px;
-    padding-top: 10px
+    padding-top: 10px;
+    line-height: 50px;
+}
+
+#events {
+    text-align: center;
 }
 
 .eventHead {
     color: #ff0;
-    font-size: 12pt
+    font-size: 12pt;
+    text-align: center
+}
+
+.prestonEvent {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 footer,form {
