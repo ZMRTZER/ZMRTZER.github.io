@@ -52,6 +52,10 @@
         margin-right: 25%
     }
 
+    .summary {
+        line-height: 40px;
+    }
+
     #forecast {
         margin-left: 25%
     }
@@ -94,8 +98,6 @@
         margin-right: 375px;
         padding-left: 35px
     }
-
-    
 
     #rodeo,.map {
         display: inline-block
