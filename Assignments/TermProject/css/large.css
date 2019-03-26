@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1024px) {
+    body {
+        font-size: 16pt
+    }
+
+    #banner {
+        flex-flow: column wrap;
+        align-items: center;
+        align-content: center
+    }
+
+    nav {
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-evenly
+    }
+
+    nav button {
+        display: none;
+    }
+
+    #mytopnav {
+        font-size: 20pt;
+    }
+
+    .date,footer {
+        font-size: 18pt
+    }
+}
