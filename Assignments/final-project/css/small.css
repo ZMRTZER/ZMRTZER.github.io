@@ -5,6 +5,8 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 
+/* Header */
+
 #banner {
     display: flex;
     flex-flow: row wrap;
@@ -15,6 +17,8 @@ body {
 .title {
     color: white;
 }
+
+/* Navigation */
 
 nav {
     display: flex;
@@ -39,32 +43,55 @@ nav a {
     padding: .8rem 2%
 }
 
-nav button {
+nav button.menu {
     background-color: transparent;
     border: 0;
     padding: .8rem 2%;
     color: #fff
 }
 
-nav a:hover {
+.topnav a{
+    color: slateblue
+}
+
+.topnav a:hover {
     color: #fff;
     background-color: mediumblue
 }
 
-nav a.active {
+.topnav a.active {
     background-color: lightskyblue;
     color: #fff
 }
 
-nav a:visited {
-    color: #191970
-}
-
-nav a:focus {
+.topnav a:focus {
     color: #00bfff
 }
 
+nav button.subnavbtn {
+    background-color: transparent;
+    border: 0;
+    padding: .8rem 2%;
+    color: slateblue
+}
+
+.subnav-content {
+    display: none;
+}
+
+.subnav {
+    position: relative
+}
+
+/* Homepage */
+.homeMap {
+    float: right;
+}
+
+/* Footer */
+
 footer {
+    clear: right;
     background-color: skyblue;
     text-align: center;
     font-size: 8pt;

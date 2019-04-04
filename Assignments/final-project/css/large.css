@@ -15,7 +15,7 @@
     justify-content: space-evenly
     }
 
-    nav button {
+    nav button.menu{
         display: none;
     }
 

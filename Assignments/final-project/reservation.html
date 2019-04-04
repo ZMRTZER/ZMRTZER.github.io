@@ -30,16 +30,24 @@
         </header>            
         <br>
         <nav id="mytopnav" class="topnav">  
-            <button onclick="toggleMenu()">&#9776;Menu</button>
-            <a href="home.html" title="Home" class="active">Home</a>
-            <a href="temple.html" title="Temple">Temples</a>
-            <a href="reservation.html" title="Reservaiton">Reservations</a>
-            <a href="services.html" title="Services">Services</a>
-            <a href="reception.html" title="Reception">Reception</a>
-            <a href="missionary.html" title="Missionary">Missionary</a>
-            <a href="contact.html" title="Contact">Contact</a>
-        </nav>
-
+                <button class="menu" onclick="toggleMenu()">&#9776;Menu</button>
+                <a href="index.html" title="Home" class="active">Home</a>
+                <a href="temple.html" title="Temple">Temples</a>
+                <a href="reservation.html" title="Reservaiton">Reservations</a>
+                <div class="subnav">
+                    
+                    <button class="subnavbtn" onclick="myFunction()"><a href="services.html" title="Services">Services</a>&#8595;</button>
+                    
+                <div id="mySubnav" class="subnav-content">
+                    <br>
+                    <a href="reception.html" title="Reception">Reception</a>
+                    <br>
+                    <br>
+                    <a href="missionary.html" title="Missionary">Missionary</a>
+                </div>
+                </div>                
+                <a href="contact.html" title="Contact">Contact</a>
+            </nav>
         <footer>
             <p>&copy;2019 Temple Inn & Suites | <a href= "https://www.byui.edu">https://www.byui.edu</a> | Braden Hamilton</p>
             <p class="week" id="day"></p><p class="date" id="datetime"></p>

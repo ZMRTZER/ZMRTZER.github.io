@@ -4,7 +4,7 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
             <title>Temple Inn & Suites - Home</title>
-            <meta name="description" content="CIT 230 Term Project home page.">
+            <meta name="description" content="CIT 230 Term Project home page.">           
             <link rel="stylesheet" href="css/normalize.css">
             <link rel="stylesheet" href="css/small.css">
             <link rel="stylesheet" href="css/medium.css">
@@ -30,21 +30,53 @@
         </header>            
         <br>
         <nav id="mytopnav" class="topnav">  
-            <button onclick="toggleMenu()">&#9776;Menu</button>
-            <a href="home.html" title="Home" class="active">Home</a>
+            <button class="menu" onclick="toggleMenu()">&#9776;Menu</button>
+            <a href="index.html" title="Home" class="active">Home</a>
             <a href="temple.html" title="Temple">Temples</a>
             <a href="reservation.html" title="Reservaiton">Reservations</a>
-            <a href="services.html" title="Services">Services</a>
-            <a href="reception.html" title="Reception">Reception</a>
-            <a href="missionary.html" title="Missionary">Missionary</a>
+            <div class="subnav">
+                
+                <button class="subnavbtn" onclick="myFunction()"><a href="services.html" title="Services">Services</a>&#8595;</button>
+                
+            <div id="mySubnav" class="subnav-content">
+                <br>
+                <a href="reception.html" title="Reception">Reception</a>
+                <br>
+                <br>
+                <a href="missionary.html" title="Missionary">Missionary</a>
+            </div>
+            </div>                
             <a href="contact.html" title="Contact">Contact</a>
         </nav>
+        <div class="headline">
+            <h1>Feel the Spirit in and out of the Lord's House</h1>
+            <p>At Temmple Inn & Suites we strive to provide a place of peace and calm to help our visitors relax, focus, and ponder on the spirit of their visit as they prepare to enter the house of the Lord and when they return.</p>
+        </div>
+        <main>
+            <img class="homeTemple" srcset="images/logan-small.jpg 200w,
+            images/logan-medium.jpg 300w,
+            images/logan-large.jpg 700w"
+            sizes="(max-width: 600px) 200px,
+            (max-width: 768px) 300px,
+             500px" 
+            src="images/logan-small.jpg" alt="Logan Temple">
+            <button>Book Now</button>
+        </main>
 
+        <article class="contactStuff">
+            <img class="homeMap" srcset="images/map-small.png 164w,
+            images/map-medium.png 264w,
+            images/map-large.png 364w"
+            sizes="(max-width: 600px) 150px,
+            (max-width: 768px) 250px,
+            350px"
+            src="images/map.png">
+            </article>
         <footer>
             <p>&copy;2019 Temple Inn & Suites | <a href= "https://www.byui.edu">https://www.byui.edu</a> | Braden Hamilton</p>
-            <p class="week" id="day"></p><p class="date" id="datetime"></p>
+            <p><a href="resources.html">Resources</a></p>
         </footer>
         <script src="script/hamburger.js"></script>
-        <script src="script/currentdate.js"></script>
+        <script src="script/subnav.js"></script>
         </body>
     </html>
