@@ -26,4 +26,55 @@
     .date,footer {
         font-size: 18pt
     }
+
+    /* Home Page */
+    .homeh1, .homeh2, .homeh3 {
+        font-size: 20pt
+    }
+
+    .headline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .siteSummary {
+      width: 25%;
+    }
+
+    .templeSegway {
+        text-align: center;
+        clear: right;
+        color: slateblue;
+    }
+
+    .templeSummary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        clear: right
+    }
+
+    .homeTempledescription {
+        width: 35%;
+    }
+
+    .contactStuff {
+        margin-right: 400px;
+        margin-left: 400px;
+    }
+    
+    .homeMap {
+        margin-bottom: 50px;
+    }
+
+    /* Resources */
+
+.resources {
+    margin-left: 100px
+}
+
+    footer {
+        margin-bottom: -50px;
+    }
 }

@@ -5,6 +5,9 @@
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
             <title>Temple Inn & Suites - Reservation</title>
             <meta name="description" content="CIT 230 Term Project reservation page.">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">            
+            <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
             <link rel="stylesheet" href="css/normalize.css">
             <link rel="stylesheet" href="css/small.css">
             <link rel="stylesheet" href="css/medium.css">
@@ -31,12 +34,12 @@
         <br>
         <nav id="mytopnav" class="topnav">  
                 <button class="menu" onclick="toggleMenu()">&#9776;Menu</button>
-                <a href="index.html" title="Home" class="active">Home</a>
+                <a href="index.html" title="Home">Home</a>
                 <a href="temple.html" title="Temple">Temples</a>
-                <a href="reservation.html" title="Reservaiton">Reservations</a>
+                <a href="reservation.html" title="Reservaiton" class="active">Reservations</a>
                 <div class="subnav">
                     
-                    <button class="subnavbtn" onclick="myFunction()"><a href="services.html" title="Services">Services</a>&#8595;</button>
+                    <button class="subnavbtn" onclick="myFunction()"><a href="services.html" title="Services">Services</a><i class="fas fa-sort-down"></i></button>
                     
                 <div id="mySubnav" class="subnav-content">
                     <br>
@@ -48,11 +51,11 @@
                 </div>                
                 <a href="contact.html" title="Contact">Contact</a>
             </nav>
-        <footer>
-            <p>&copy;2019 Temple Inn & Suites | <a href= "https://www.byui.edu">https://www.byui.edu</a> | Braden Hamilton</p>
-            <p class="week" id="day"></p><p class="date" id="datetime"></p>
-        </footer>
-        <script src="script/hamburger.js"></script>
-        <script src="script/currentdate.js"></script>
+            <footer>
+                    <p>&copy;2019 Temple Inn & Suites | <a href= "https://www.byui.edu">https://www.byui.edu</a> | Braden Hamilton</p>
+                    <p><a href="resources.html">Resources</a></p>
+                </footer>
+                <script src="script/hamburger.js"></script>
+                <script src="script/subnav.js"></script>
         </body>
     </html>
