@@ -74,6 +74,16 @@
     margin-left: 100px
 }
 
+/* Temple Page Main */
+
+#gallery {
+    grid-template-columns: 1fr 1fr;
+}
+
+figcaption {
+    font-size: 20pt
+}
+
     footer {
         margin-bottom: -50px;
     }

@@ -3,8 +3,8 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-            <title>Temple Inn & Suites - Temples</title>
-            <meta name="description" content="CIT 230 Term Project temple page.">
+            <title>Temple Inn & Suites - Temples, Atlanta</title>
+            <meta name="description" content="CIT 230 Term Project temple, Atlanta page.">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">            
             <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
@@ -51,56 +51,60 @@
                 </div>                
                 <a href="contact.html" title="Contact">Contact</a>
             </nav>
-
-            <main id="gallery">
-                <figure>
-                        <a href="logan.html"><img src="images/logan-temple.jpg" alt="Logan Temple"></a>
-                        <figcaption>&nbsp;Logan, Utah</figcaption>
-                </figure>
-                <section>
-                    <ul class="loganInfo">
-                        <li>Closure Schedule: <span id="loganClosure"></span></li>
-                        <li>Current Weather: <span></span></li>
+            <section class="templeHead">
+                <h1>Atlanta, GA</h1>
+                <img class="atlantaTemple" srcset="images/atlanta-small.jpg 200w,
+                images/atlanta-medium.jpg 300w,
+                images/atlanta-large.jpg 700w"
+                sizes="(max-width: 600px) 200px,
+                (max-width: 768px) 300px,
+                700px" 
+                src="images/atlanta-small.jpg" alt="Atlanta Temple">
+            </section>
+            <main class="atlantaStuff">  
+                <article>
+                    <p><em>Address</em></p>
+                    <p>6450 Barfield Rd NE</p>
+                    <p>Sandy Springs, GA 30328-4283</p>
+                    <p>United States</p>
+                    <br>
+                    <p><em>Telephone</em></p>
+                    <p>(1)770-393-3698</p>
+                    <br>
+                    <p><em>Email</em></p>
+                    <p>atlantatemple@gmail.com</p>
+                    <br>
+                    <p><em>Services</em></p>
+                    <ul>
+                        <li>No Clothing Rental Available</li>
+                        <li>No Cafeteria Available</li>
+                        <li>No Patron Housing Available</li>
+                        <li>Distribution Center Nearby</li>
                     </ul>
-                </section>
-                <figure>
-                        <a href="atlanta.html"><img src="images/atlanta-temple.jpg" alt="Atlanta Temple"></a>
-                        <figcaption>&nbsp;Atlanta, Georgia</figcaption>
-                </figure>
-                <section>
-                    <ul class="atlantaInfo">
-                        <li>Current Weather: <span id="atlantaClosure"></span></li>
-                        <li>Closure Schedule: <span></span></li>
+                </article>
+                <br>
+                <article>
+                    <h3>History:</h3>
+                    <ul>
+                        <li>2 April 1980: Temple Announced</li>
+                        <li>7 March 1981: Groundbreaking</li>
+                        <li>1 June 1983: Dedicated</li>
+                        <li>14 November 1997: Rededicated</li>
+                        <li>1 May 20011: Rededicated</li>
                     </ul>
-                </section>
-                <figure>
-                        <a href="ghana.html"><img src="images/accra-ghana-temple.jpg" alt="Accra, Ghana Temple"></a>
-                        <figcaption>&nbsp;Accra, Ghana</figcaption>
-                </figure>
-                <section>
-                    <ul class="ghanaInfo">
-                        <li>Closure Schedule: <span Id="ghanaClosure"></span></li>
-                        <li>Current Weather: <span></span></li>
-                    </ul>
-                </section>
-                <figure>
-                            <a href="saltlake.html"><img src="images/salt-lake-temple.jpg" alt="Salt Lake Temple"></a>
-                            <figcaption>&nbsp;Salt Lake, Utah</figcaption>
-                </figure>
-                <section>
-                    <ul class="saltlakeInfo">
-                        <li>Closure Schedule: <span id="saltlakeClosure"></span></li>
-                        <li>Current Weather: <span></span></li>
-                    </ul>
-                </section>
+                    <br>
+                    <p></p>
+                </article>
             </main>
-
+            <br>
+            <br>
+            <a href="temple.html" class="templeMainback"><button>Back to Main</button></a>
+            <br>
             <footer>
                     <p>&copy;2019 Temple Inn & Suites | <a href= "https://www.byui.edu">https://www.byui.edu</a> | Braden Hamilton</p>
                     <p><a href="resources.html">Resources</a></p>
                 </footer>
                 <script src="script/hamburger.js"></script>
                 <script src="script/subnav.js"></script>
-                <script src="script/closureschedule.js"></script>
         </body>
     </html>

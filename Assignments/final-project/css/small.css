@@ -113,8 +113,12 @@ nav button.subnavbtn {
 }
 
 .bookbtn {
+    text-decoration: none;
     background-color: blue;
-    color: white;
+    color: yellow;
+    border: solid 2px;
+    padding-right: 5px;
+    padding-left: 5px;
     border-color: skyblue;
     display: block;
     margin-right: auto;
@@ -161,6 +165,54 @@ nav button.subnavbtn {
 
 .homeMap {
     float: right;
+}
+
+/* Temple Page, Main */
+
+#gallery {
+    display: grid;
+    padding: 0 2%;
+    grid-template-columns: auto;
+}
+
+#gallery figure img {
+    width: 100%;
+}
+
+figure img:hover {
+    box-shadow: 0 0 50px #6a5acd
+}
+
+figcaption {
+    color: mediumblue;
+    text-align: center
+}
+
+.loganInfo, .atlantaInfo, .ghanaInfo, .saltlakeInfo {
+    list-style: none;
+}
+
+/* Temple Pages */
+.loganTemple, .atlantaTemple, .ghanaTemple, .saltlakeTemple {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.loganStuff, .atlantaStuff, .ghanaStuff, .saltlakeStuff {
+    display: flex;
+    justify-content: center;
+}
+
+.templeHead {
+    text-align: center;
+    color: slateblue
+}
+
+.templeMainback {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
 }
 
 /* Footer */

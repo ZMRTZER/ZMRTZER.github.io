@@ -3,8 +3,8 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-            <title>Temple Inn & Suites - Temples</title>
-            <meta name="description" content="CIT 230 Term Project temple page.">
+            <title>Temple Inn & Suites - Temples, Logan</title>
+            <meta name="description" content="CIT 230 Term Project temple, Logan page.">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">            
             <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
@@ -51,56 +51,59 @@
                 </div>                
                 <a href="contact.html" title="Contact">Contact</a>
             </nav>
-
-            <main id="gallery">
-                <figure>
-                        <a href="logan.html"><img src="images/logan-temple.jpg" alt="Logan Temple"></a>
-                        <figcaption>&nbsp;Logan, Utah</figcaption>
-                </figure>
-                <section>
-                    <ul class="loganInfo">
-                        <li>Closure Schedule: <span id="loganClosure"></span></li>
-                        <li>Current Weather: <span></span></li>
-                    </ul>
-                </section>
-                <figure>
-                        <a href="atlanta.html"><img src="images/atlanta-temple.jpg" alt="Atlanta Temple"></a>
-                        <figcaption>&nbsp;Atlanta, Georgia</figcaption>
-                </figure>
-                <section>
-                    <ul class="atlantaInfo">
-                        <li>Current Weather: <span id="atlantaClosure"></span></li>
-                        <li>Closure Schedule: <span></span></li>
-                    </ul>
-                </section>
-                <figure>
-                        <a href="ghana.html"><img src="images/accra-ghana-temple.jpg" alt="Accra, Ghana Temple"></a>
-                        <figcaption>&nbsp;Accra, Ghana</figcaption>
-                </figure>
-                <section>
-                    <ul class="ghanaInfo">
-                        <li>Closure Schedule: <span Id="ghanaClosure"></span></li>
-                        <li>Current Weather: <span></span></li>
-                    </ul>
-                </section>
-                <figure>
-                            <a href="saltlake.html"><img src="images/salt-lake-temple.jpg" alt="Salt Lake Temple"></a>
-                            <figcaption>&nbsp;Salt Lake, Utah</figcaption>
-                </figure>
-                <section>
-                    <ul class="saltlakeInfo">
-                        <li>Closure Schedule: <span id="saltlakeClosure"></span></li>
-                        <li>Current Weather: <span></span></li>
-                    </ul>
-                </section>
+            <br>
+            <br>
+            <section>
+                <h1 class="templeHead">Logan, UT</h1>
+            <img class="loganTemple" srcset="images/logan-small.jpg 200w,
+            images/logan-medium.jpg 300w,
+            images/logan-large.jpg 700w"
+            sizes="(max-width: 600px) 200px,
+            (max-width: 768px) 300px,
+             700px" 
+            src="images/logan-small.jpg" alt="Logan Temple"> 
+            </section> 
+            <main class="loganStuff">
+              <article>
+                <p><em>Address</em></p>
+                <p>175 N 300 E</p>
+                <p>Logan, UT 84321-4720</p>
+                <p>United States</p>
+                <br>
+                <p><em>Telephone</em></p>
+                <p>(1)435-752-3611</p>
+                <br>
+                <p><em>Email</em></p>
+                <p>logantemple@gmail.com</p>
+                <br>
+                <p><em>Services</em></p>
+                <ul>
+                    <li>Clothing Rental Available</li>
+                    <li>Cafeteria Available</li>
+                    <li>No Patron Housing Available</li>
+                    <li>No Distribution Center Nearby</li>
+                </ul>
+            </article>
+            <br>
+            <article>
+                <h3>History:</h3>
+                <ul>
+                    <li>6 October 1876: Temple Announced</li>
+                    <li>18 May 1877: Groundbreaking</li>
+                    <li>17 May 1884: Dedicated</li>
+                    <li>13 March 1979: Rededicated</li>
+                </ul>
+            </article>
             </main>
-
+            <br>
+            <br>
+            <a href="temple.html" class="templeMainback"><button>Back to Main</button></a>
+            <br>
             <footer>
                     <p>&copy;2019 Temple Inn & Suites | <a href= "https://www.byui.edu">https://www.byui.edu</a> | Braden Hamilton</p>
                     <p><a href="resources.html">Resources</a></p>
                 </footer>
                 <script src="script/hamburger.js"></script>
                 <script src="script/subnav.js"></script>
-                <script src="script/closureschedule.js"></script>
         </body>
     </html>
