@@ -215,6 +215,70 @@ figcaption {
     justify-content: center;
 }
 
+/* Services Page */
+
+.services {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.serviceh1 {
+    text-align: center;
+    color: slateblue
+}
+
+.serviceh2 {
+    color: mediumslateblue
+}
+
+.bell {
+    float: right;
+}
+
+.serviceh3 {
+    clear: right;
+}
+
+/* Reception Page */
+
+.receptionh1 {
+    text-align: center;
+    color: slateblue
+}
+
+.receptionh2 {
+    color: mediumslateblue;
+    text-align: center
+}
+
+.receptionh3 {
+    text-align: center
+}
+
+.wedding {
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+}
+
+
+/* Missionary Page */
+
+.missionaryh1 {
+    text-align: center;
+    color: slateblue
+}
+
+.missionaryh2 {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center
+}
+
+.missionaryh2 {
+    color: mediumslateblue
+}
+
 /* Footer */
 
 footer {
