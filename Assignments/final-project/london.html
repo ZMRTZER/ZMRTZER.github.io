@@ -3,8 +3,8 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-            <title>Temple Inn & Suites - Temples, Accra</title>
-            <meta name="description" content="CIT 230 Term Project temple, accra page.">
+            <title>Temple Inn & Suites - Temples, London</title>
+            <meta name="description" content="CIT 230 Term Project temple, london page.">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">            
             <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
@@ -52,32 +52,42 @@
                 <a href="contact.html" title="Contact">Contact</a>
             </nav>
             <section class="templeHead">
-                <h1>Accra, Ghana</h1>
-                <img class="ghanaTemple" srcset="images/ghana-small.jpg 200w,
-                        images/ghana-medium.jpg 300w,
-                        images/ghana-large.jpg 700w"
+                <h1>London, England</h1>
+                <img class="londonTemple" srcset="images/london-small.jpg 200w,
+                        images/london-medium.jpg 300w,
+                        images/london-large.jpg 700w"
                         sizes="(max-width: 600px) 200px,
                         (max-width: 768px) 300px,
                          700px" 
-                        src="images/ghana-small.jpg" alt="Accra Temple">
+                        src="images/london-small.jpg" alt="London Temple">
             </section>
-            <main class="ghanaStuff">
+            <section id="londonWeather">
+                <h3 class="weatherTitle">Current Weather: </h3>
+                <li class="londonWeather">
+                    <p><em id="londonState"></em></p>
+                    <p><em id="londonTemp"></em> &deg;F</p>
+                    <p>Humidity <em id="londonHumid"></em></p>
+                    <p>Wind Speed <em id="londonSpeed"></em> mph</p>
+                    <p>Wind Chill <em id="londonWind"></em></p>
+                    <p>Wind Direction <em id="londonDir"></em></p>
+                </li>
+            </section>
+            <main class="londonStuff">
                 <article>
                     <p><em>Address</em></p>
-                    <p>Accra Ghana Temple Complex</p>
-                    <p>57 Independence Ave, North Ridge</p>
-                    <p>P.M.B. CT 209, Cantonments, Accra, Ghana</p>
+                    <p>West Park Road, Newchapel</p>
+                    <p>Surrey, England RH7 6HW, United Kingdom</p>
                     <br>
                     <p><em>Telephone</em></p>
-                    <p>(233)302-650-123</p>
+                    <p>(44)1342-831-400</p>
                     <br>
                     <p><em>Email</em></p>
-                    <p>accratemple@gmail.com</p>
+                    <p>londontemple@gmail.com</p>
                     <br>
                     <p><em>Services</em></p>
                     <ul>
-                        <li>No Clothing Rental Available</li>
-                        <li>No Cafeteria Available</li>
+                        <li>Clothing Rental Available</li>
+                        <li>Cafeteria Available</li>
                         <li>Patron Housing Available</li>
                         <li>Distribution Center Nearby</li>
                     </ul>
@@ -86,9 +96,10 @@
                 <article>
                     <h3>History:</h3>
                     <ul>
-                        <li>16 February 1998: Temple Announced</li>
-                        <li>16 November 2001: Groundbreaking</li>
-                        <li>11 January 2004: Dedicated</li>
+                        <li>10 August 1953: Temple Announced</li>
+                        <li>27 August 1955: Groundbreaking</li>
+                        <li>7 September 1958: Dedicated</li>
+                        <li>18 October 1992: Rededicated</li>
                     </ul>
                 </article>
             </main>
@@ -102,5 +113,6 @@
                 </footer>
                 <script src="script/hamburger.js"></script>
                 <script src="script/subnav.js"></script>
+                <script src="script/londonweather.js"></script>
         </body>
     </html>
