@@ -9,9 +9,36 @@ request.onload = function() {
     var closureData= JSON.parse(request.responseText);
     console.log(closureData);
 
-    document.getElementById("loganClosure").innerHTML = closureData.temples[0].closures;
-    document.getElementById("atlantaClosure").innerHTML = closureData.temples[1].closures;
-    document.getElementById("ghanaClosure").innerHTML = closureData.temples[2].closures;
-    document.getElementById("saltlakeClosure").innerHTML = closureData.temples[3].closures;
+    //Logan Closures//
+    document.getElementById("Lclosure1").innerHTML = closureData.temples[0].closures[0];
+    document.getElementById("Lclosure2").innerHTML = closureData.temples[0].closures[1];
+    document.getElementById("Lclosure3").innerHTML = closureData.temples[0].closures[2];
+    document.getElementById("Lclosure4").innerHTML = closureData.temples[0].closures[3];
+    document.getElementById("Lclosure5").innerHTML = closureData.temples[0].closures[4];
+    document.getElementById("Lclosure6").innerHTML = closureData.temples[0].closures[5];
+    document.getElementById("Lclosure7").innerHTML = closureData.temples[0].closures[6];
+    document.getElementById("Lclosure8").innerHTML = closureData.temples[0].closures[7];
+    document.getElementById("Lclosure9").innerHTML = closureData.temples[0].closures[8];
 
+    //AtlantaClosures//
+    document.getElementById("Aclosure1").innerHTML = closureData.temples[1].closures[0];
+    document.getElementById("Aclosure2").innerHTML = closureData.temples[1].closures[1];
+    document.getElementById("Aclosure3").innerHTML = closureData.temples[1].closures[2];
+    document.getElementById("Aclosure4").innerHTML = closureData.temples[1].closures[3];
+    document.getElementById("Aclosure5").innerHTML = closureData.temples[1].closures[4];
+    document.getElementById("Aclosure6").innerHTML = closureData.temples[1].closures[5];
+    document.getElementById("Aclosure7").innerHTML = closureData.temples[1].closures[6];
+    document.getElementById("Aclosure8").innerHTML = closureData.temples[1].closures[7];
+
+    //London Closures//
+    document.getElementById("Eclosure1").innerHTML = closureData.temples[2].closures[0];
+
+    //Salt Lake Closures//
+    document.getElementById("Sclosure1").innerHTML = closureData.temples[3].closures[0];
+    document.getElementById("Sclosure2").innerHTML = closureData.temples[3].closures[1];
+    document.getElementById("Sclosure3").innerHTML = closureData.temples[3].closures[2];
+    document.getElementById("Sclosure4").innerHTML = closureData.temples[3].closures[3];
+    document.getElementById("Sclosure5").innerHTML = closureData.temples[3].closures[4];
+    document.getElementById("Sclosure6").innerHTML = closureData.temples[3].closures[5];
+    document.getElementById("Sclosure7").innerHTML = closureData.temples[3].closures[6];
 }
