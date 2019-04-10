@@ -86,12 +86,58 @@ figcaption {
     font-size: 20pt
 }
 
+/* Reservation Page & Form */
+
+form {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.formName {
+    display: flex;
+}
+
+.inputOne {
+    width: 250px;
+    height: 25px;
+}
+
+.inputTwo {
+    width: 30px
+}
+
+.selections {
+    display: flex;
+}
+
+select {
+    width: 110px;
+}
+
+.rooms {
+    display: flex;
+}
+
+.check {
+    display: flex;
+}
+
+textarea {
+    width: 75%;
+    height: 300px;
+}
+
+.formSubmit {
+    margin-left: 20px;
+}
+
 /* Services Page */
 
 .services {
     margin-left: 10%;
     margin-right: 20%;
 }
+
 
 /* Reception Page */
 

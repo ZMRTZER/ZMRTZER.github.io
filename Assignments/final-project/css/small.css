@@ -115,12 +115,12 @@ nav button.subnavbtn {
 
 .bookbtn {
     text-decoration: none;
-    background-color: blue;
-    color: yellow;
+    background-color: mediumblue;
+    color: gold;
     border: solid 2px;
     padding-right: 5px;
     padding-left: 5px;
-    border-color: skyblue;
+    border-color: deepskyblue;
     text-align: center;
     display: block;
     margin-right: auto;
@@ -230,6 +230,44 @@ figcaption {
 
 .weatherTitle{
     text-align: center;
+}
+
+/* Reservation Page & Form */
+
+form {
+    background-color: steelblue;
+    color: gold;
+    margin-right: 40px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+select {
+    width: 70px;
+}
+
+.inputTwo {
+    width: 15px;
+    text-align: center
+}
+
+textarea {
+    width: 75%;
+    height: 100px;
+}
+
+.formSubmit {
+    margin-left: 10px;
+    background-color: mediumblue;
+    color: gold;
+    border-color: deepskyblue
+}
+
+/* Thanks Page */
+
+#thanks {
+    text-align: center
 }
 
 /* Services Page */
