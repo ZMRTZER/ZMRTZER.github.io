@@ -205,12 +205,12 @@ figcaption {
     justify-content: space-evenly;
 }
 
-.loganInfo, .atlantaInfo, .londonInfo, .sltlkInfo {
+.LsessionInfo, .AsessionInfo, .EsessionInfo, .SsessionInfo {
     display: flex;
     flex-flow: row wrap;
 }
 
-.loganInfo em, .loganStuff em, .atlantaStuff em, .atlantaInfo em, .londonStuff em, .londonInfo em, .saltlakeStuff em, .sltlkInfo em {
+.LsessionInfo em, .loganStuff em, .atlantaStuff em, .AsessionInfo em, .londonStuff em, .EsessionInfo em, .saltlakeStuff em, .SsessionInfo em {
     color: slateblue;
 }
 
