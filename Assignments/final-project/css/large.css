@@ -162,10 +162,40 @@
         margin-left: 25%;
     }
 
+    .receptionTalk {
+        margin-right: 400px;
+        margin-left: 400px;
+    }
+
 /* Missionary Page */
 
-    .missionaryh3, .missionaryList {
-        margin-left: 5%;
+    .missionary {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .missionName {
+        display: flex;
+    }
+    
+    .missionInfo {
+        display: flex;
+    }
+
+    .missionInput {
+        width: 150px;
+    }
+
+    .missionaryServices {
+        float: right;
+    }
+
+    .Mservices {
+        margin-left: 100px;
+    }
+
+    .missionForm {
+        position: relative;
+        left: 50px;
     }
 
 /* Footer */

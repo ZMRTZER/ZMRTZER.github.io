@@ -182,11 +182,11 @@ nav button.subnavbtn {
     width: 100%;
 }
 
-figure img:hover {
+#gallery figure img:hover {
     box-shadow: 0 0 50px #6a5acd
 }
 
-figcaption {
+#gallery figcaption {
     color: mediumblue;
     text-align: center
 }
@@ -333,6 +333,11 @@ textarea {
     margin-left: auto
 }
 
+.receptionTalk {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 
 /* Missionary Page */
 
@@ -350,6 +355,30 @@ textarea {
 .missionaryh2 {
     color: mediumslateblue
 }
+
+.missionary {
+    display: grid;
+    padding: 0 2%;
+    grid-template-columns: auto;
+}
+
+.missionary figure img {
+    width: 100%;
+}
+
+.missionary figcaption {
+    text-align: center;
+    color: mediumblue
+}
+
+.missionForm {
+    padding-right: 10px;
+}
+
+.Mservices {
+    margin-left: 10px;
+}
+
 
 /* Contact Page */
 @media only screen and (max-width: 600px) {
