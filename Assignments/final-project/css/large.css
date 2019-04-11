@@ -70,87 +70,103 @@
 
    
 
-    /* Resources */
+/* Resources */
 
-.resources {
-    margin-left: 100px
-}
+    .resources {
+        margin-left: 100px
+    }
 
 /* Temple Page Main */
 
-#gallery {
-    grid-template-columns: 1fr 1fr;
+    #gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    figcaption {
+        font-size: 20pt
+    }
+
+/* Temple Pages */
+
+    .loganInfo, .atlantaInfo, .londonInfo, .sltlkInfo {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        justify-content: space-evenly
 }
 
-figcaption {
-    font-size: 20pt
+.sessions {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 /* Reservation Page & Form */
 
-form {
-    margin-left: 250px;
-    margin-right: 250px;
-}
+    form {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
 
-.formName {
-    display: flex;
-}
+    .formName {
+        display: flex;
+    }
 
-.inputOne {
-    width: 250px;
-    height: 25px;
-}
+    .inputOne {
+        width: 250px;
+        height: 25px;
+    }
 
-.inputTwo {
-    width: 30px
-}
+    .inputTwo {
+        width: 30px
+    }
 
-.selections {
-    display: flex;
-}
+    .selections {
+        display: flex;
+    }
 
-select {
-    width: 110px;
-}
+    select {
+        width: 110px;
+    }
 
-.rooms {
-    display: flex;
-}
+    .rooms {
+        display: flex;
+    }
 
-.check {
-    display: flex;
-}
+    .check {
+        display: flex;
+    }
 
-textarea {
-    width: 75%;
-    height: 300px;
-}
+    textarea {
+        width: 75%;
+        height: 300px;
+    }
 
-.formSubmit {
-    margin-left: 20px;
-}
+    .formSubmit {
+        margin-left: 20px;
+    }
 
 /* Services Page */
 
-.services {
-    margin-left: 10%;
-    margin-right: 20%;
-}
+    .services {
+        margin-left: 10%;
+        margin-right: 20%;
+    }
 
 
 /* Reception Page */
 
-.receptionList {
-    margin-right: 25%;
-    margin-left: 25%;
-}
+    .receptionList {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
 
 /* Missionary Page */
 
-.missionaryh3, .missionaryList {
-    margin-left: 5%;
-}
+    .missionaryh3, .missionaryList {
+        margin-left: 5%;
+    }
 
 /* Footer */
 
