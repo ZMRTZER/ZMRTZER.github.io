@@ -309,6 +309,7 @@ textarea {
 
 .serviceh3 {
     clear: right;
+    color: mediumslateblue
 }
 
 /* Reception Page */
@@ -318,9 +319,9 @@ textarea {
     color: slateblue
 }
 
-.receptionh2 {
+.staff {
     color: mediumslateblue;
-    text-align: center
+    
 }
 
 .receptionh3 {
@@ -379,6 +380,10 @@ textarea {
     margin-left: 10px;
 }
 
+.Mservices em {
+    color: mediumslateblue
+}
+
 
 /* Contact Page */
 @media only screen and (max-width: 600px) {
@@ -392,6 +397,16 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly
+}
+
+.contactUs{
+    text-align: center
+}
+
+.contactForm {
+    display: block;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
 /* Footer */
