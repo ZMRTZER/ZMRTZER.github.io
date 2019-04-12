@@ -1,5 +1,5 @@
 var weatherRequest = new XMLHttpRequest();
-    weatherRequest.open('GET', 'https://api.openweathermap.org/dat0a/2.5/weather?q=london&appid=a25b3602ce57e18b11c4ed2de661001a&units=imperial' , true);
+    weatherRequest.open('GET', 'https://api.openweathermap.org/data/2.5/weather?q=london&appid=a25b3602ce57e18b11c4ed2de661001a&units=imperial' , true);
     weatherRequest.send();
     weatherRequest.onload = function() {
 

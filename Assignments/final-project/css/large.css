@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width:1024px) {
     body {
         font-size: 16pt
     }
@@ -10,42 +10,36 @@
     }
 
     nav {
-    flex-flow: row wrap;
-    justify-content: center;
-    justify-content: space-evenly
+        flex-flow: row wrap;
+        justify-content: space-evenly
     }
 
-    nav button.menu{
-        display: none;
-    }
-
-    #mytopnav {
-        font-size: 20pt;
+    nav button.menu {
+        display: none
     }
 
     .date,footer {
         font-size: 18pt
     }
 
-    /* Home Page */
-    .homeh1, .homeh2, .homeh3 {
+    #mytopnav,.homeh1,.homeh2,.homeh3,figcaption {
         font-size: 20pt
     }
 
     .headline {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center
     }
 
     .siteSummary {
-      width: 25%;
+        width: 25%
     }
 
     .templeSegway {
         text-align: center;
         clear: right;
-        color: slateblue;
+        color: #6a5acd
     }
 
     .templeSummary {
@@ -56,155 +50,117 @@
     }
 
     .homeTempledescription {
-        width: 35%;
+        width: 35%
     }
 
     .contactStuff {
         margin-right: 400px;
-        margin-left: 400px;
+        margin-left: 400px
     }
-    
+
     .homeMap {
-        margin-bottom: 50px;
+        margin-bottom: 50px
     }
-
-   
-
-/* Resources */
 
     .resources {
         margin-left: 100px
     }
 
-/* Temple Page Main */
-
     #gallery {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr
     }
 
-    figcaption {
-        font-size: 20pt
-    }
-
-/* Temple Pages */
-
-    .LsessionInfo, .AsessionInfo, .EsessionInfo, .SsessionInfo {
+    .AsessionInfo,.EsessionInfo,.LsessionInfo,.SsessionInfo {
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
         justify-content: space-evenly
-}
+    }
 
-.sessions {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    justify-content: space-around;
-}
-
-/* Reservation Page & Form */
+    .sessions {
+        flex-flow: row wrap;
+        justify-content: space-around
+    }
 
     form {
         margin-left: 250px;
-        margin-right: 250px;
+        margin-right: 250px
     }
 
-    .formName {
-        display: flex;
+    .formName,.sessions {
+        display: flex
     }
 
     .inputOne {
         width: 250px;
-        height: 25px;
+        height: 25px
     }
 
     .inputTwo {
         width: 30px
     }
 
-    .selections {
-        display: flex;
+    .check,.rooms,.selections {
+        display: flex
     }
 
     select {
-        width: 110px;
-    }
-
-    .rooms {
-        display: flex;
-    }
-
-    .check {
-        display: flex;
+        width: 110px
     }
 
     textarea {
         width: 75%;
-        height: 300px;
+        height: 300px
     }
 
     .formSubmit {
-        margin-left: 20px;
+        margin-left: 20px
     }
-
-/* Services Page */
 
     .services {
         margin-left: 10%;
-        margin-right: 20%;
+        margin-right: 20%
     }
-
-
-/* Reception Page */
 
     .receptionList {
         margin-right: 25%;
-        margin-left: 25%;
+        margin-left: 25%
     }
 
     .receptionTalk {
         margin-right: 400px;
-        margin-left: 400px;
+        margin-left: 400px
     }
-
-/* Missionary Page */
 
     .missionary {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr
     }
 
-    .missionName {
-        display: flex;
-    }
-    
-    .missionInfo {
-        display: flex;
+    .missionInfo,.missionName {
+        display: flex
     }
 
     .missionInput {
-        width: 150px;
+        width: 150px
     }
 
     .missionInput2 {
-        width: 225px;
+        width: 225px
     }
 
     .missionaryServices {
-        float: right;
+        float: right
     }
 
     .Mservices {
-        margin-left: 100px;
+        margin-left: 100px
     }
 
     .missionForm {
         position: relative;
-        left: 50px;
+        left: 50px
     }
 
-/* Footer */
-
     footer {
-        margin-bottom: -50px;
+        margin-bottom: -50px
     }
 }
